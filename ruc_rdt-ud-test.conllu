@@ -167,7 +167,7 @@
 # sent_id = factual_Aniinire_13
 # text = "Obukaire bwa mpiti, tibusigala mu kibbasiro".
 # english = "Oldness is near, it doesn't remain in the envelope."
-1	"	"	PUNCT	_	4	4	punct	4:punct	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	4:punct	SpaceAfter=No
 2	Obukaire	bukaire	NOUN	_	NounClass=Bantu14|Referent=Yes	4	nsubj	4:nsubj	Gloss=AUG-14.old_age|MSeg=o-bukaire
 3	bwa	a	PART	GEN	NounClass=Bantu14	4	case	4:case	Gloss=14.GEN|MSeg=bwa
 4	mpiti	mpiti	ADV	_	NounClass=Bantu1	0	root	0:root	Gloss=near|MSeg=mpiti|POS=ADV|SpaceAfter=No
@@ -175,7 +175,7 @@
 6	tibusigala	sigala	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu14|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	Gloss=NEG-14S-remain-FV|MSeg=ti-bu-sigal-a
 7	mu	mu	ADP	LOC	NounClass=Bantu18	8	case	8:case	Gloss=18.LOC|MSeg=mu
 8	kibbasiro	kibbasiro	NOUN	_	NounClass=Bantu7	6	obl	6:obl	Gloss=7.envelope|MSeg=kibbasiro|SpaceAfter=No
-9	"	"	PUNCT	_	4	4	punct	4:punct	SpaceAfter=No
+9	"	"	PUNCT	_	_	4	punct	4:punct	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = factual_Aniinire_14
