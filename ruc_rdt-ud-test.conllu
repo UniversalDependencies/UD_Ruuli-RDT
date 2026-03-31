@@ -112,7 +112,7 @@
 1	Amagezi	magezi	NOUN	_	NounClass=Bantu6|Referent=Yes	3	obj	3:obj	Gloss=AUG-6.wisdom|MSeg=a-magezi
 2	gani	ni	DET	_	Deixis=Prox|NounClass=Bantu6|PronType=Dem	1	det	1:det	Gloss=6.PROX|MSeg=gani
 3	tugataka	taka	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=1|Person[obj]=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1plS-6O-want-FV|MSeg=tu-ga-tak-a
-4	okutusoboora	soboora	VERB	_	Number=Plur|Person=1|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	3	advcl	3:advcl	Gloss=AUG-INF-1plO-arrange-FV|MSeg=o-ku-tu-soboor-a
+4	okutusoboora	soboora	VERB	_	Aspect=Imp|Number=Plur|Person=1|Referent=Yes|VerbForm=Inf|Voice=Act	3	advcl	3:advcl	Gloss=AUG-INF-1plO-arrange-FV|MSeg=o-ku-tu-soboor-a
 5	ebintu	kintu	NOUN	_	NounClass=Bantu8|Referent=Yes	4	obj	4:obj|7:obj	Gloss=AUG-8.thing|MSeg=e-bintu
 6	bye	e	PRON	_	NounClass=Bantu8|PronType=Rel	7	obj	5:ref	Gloss=8.REL|MSeg=bye
 7	tukola	kola	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	Gloss=1plS-do-FV|MSeg=tu-kol-a
@@ -121,7 +121,7 @@
 10	,	,	PUNCT	_	_	12	punct	12:punct	SpacesAfter=\n
 11-12	n'okutuimbya	_	_	_	_	_	_	_	_
 11	n'	na	CCONJ	COM	_	12	cc	12:cc	Gloss=and|MSeg=na
-12	okutuimbya	eimbya	VERB	_	Number=Plur|Person=1|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	4	conj	3:advcl|4:conj	Gloss=AUG-INF-1plO-unite-FV|MSeg=o-ku-tu-eimby-a
+12	okutuimbya	eimbya	VERB	_	Aspect=Imp|Number=Plur|Person=1|Referent=Yes|VerbForm=Inf|Voice=Act	4	conj	3:advcl|4:conj	Gloss=AUG-INF-1plO-unite-FV|MSeg=o-ku-tu-eimby-a
 13-14	n'abantu	_	_	_	_	_	_	_	_
 13	n'	na	ADP	COM	_	14	case	14:case	Gloss=COM|MSeg=na
 14	abantu	muntu	NOUN	_	NounClass=Bantu2|Referent=Yes	12	obl	12:obl	Gloss=AUG-2.person|MSeg=a-bantu
@@ -534,7 +534,7 @@
 3	oboine	bona	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	Gloss=2sgS-see:PFV|MSeg=o-boine|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 5	ni	ni	SCONJ	_	_	6	mark	6:mark	Gloss=as|MSeg=ni
-6	nkujwisirye	jwa	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Number[obj]=Sing|Person=1|Person[obj]=2|Tense=Pres|VerbForm=Fin|Voice=Cau|Voice=Appl	3	advcl	3:advcl	Gloss=1sgS-2sgO-bleed-CAUS:APPL:PFV|MSeg=n-ku-jw-isirye
+6	nkujwisirye	jwa	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Number[obj]=Sing|Person=1|Person[obj]=2|Tense=Pres|VerbForm=Fin|Voice=Appl|Voice=Cau	3	advcl	3:advcl	Gloss=1sgS-2sgO-bleed-CAUS:APPL:PFV|MSeg=n-ku-jw-isirye
 7	omusaayi	musaayi	NOUN	_	NounClass=Bantu3|Referent=Yes	6	obj:appl	6:obj:appl	Gloss=AUG-3.blood|MSeg=o-musaayi|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
@@ -1335,7 +1335,7 @@
 # sent_id = conversation_Nakasongola1_2
 # text = okubakubiriza okwaba omu maiso n'okuluma
 # english = to mobilize them continue cultivating
-1	okubakubiriza	kubiriza	VERB	_	NounClass=Bantu2|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	0	root	0:root	Gloss=AUG-INF-2O-encourage-FV|MSeg=o-ku-ba-kubiriz-a
+1	okubakubiriza	kubiriza	VERB	_	Aspect=Imp|NounClass=Bantu2|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	0	root	0:root	Gloss=AUG-INF-2O-encourage-FV|MSeg=o-ku-ba-kubiriz-a
 2	okwaba	aba	VERB	_	Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	Gloss=AUG-INF-go-FV|MSeg=o-ku-ab-a
 3	omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	4	case	4:case	Gloss=AUG-18.LOC|MSeg=o-mu
 4	maiso	riiso	NOUN	_	NounClass=Bantu6	1	obl	1:obl	Gloss=6.eye|MSeg=maiso
@@ -1666,7 +1666,7 @@
 2	ogwalemere	lema	VERB	REL	Aspect=Perf|Mood=Ind|NounClass=Bantu3|Person=3|Referent=Yes|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	Gloss=S.REL-3S-PST-defeat:PFV|MSeg=o-gu-a-lemere
 3	ontale	ntale	NOUN	_	NounClass=Bantu1|Referent=Yes	2	obj	2:obj	Gloss=AUG-1.lion|MSeg=o-ntale
 4-5	okugusyatukiraku	_	_	_	_	_	_	_	SpaceAfter=No
-4	okugusyatukira	syatuka	VERB	_	NounClass=Bantu3|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Appl	2	advcl	2:advcl	Gloss=AUG-INF-3O-tresspass-APPL-FV|MSeg=o-ku-gu-syatuk-ir-a
+4	okugusyatukira	syatuka	VERB	_	Aspect=Imp|NounClass=Bantu3|Person=3|Referent=Yes|VerbForm=Inf|Voice=Appl	2	advcl	2:advcl	Gloss=AUG-INF-3O-tresspass-APPL-FV|MSeg=o-ku-gu-syatuk-ir-a
 5	ku	ku	ADV	LOC	NounClass=Bantu17	4	advmod:loc	4:advmod:loc	Gloss=17.LOC|MSeg=ku
 6	,	,	PUNCT	_	_	7	punct	7:punct	_
 7	oisebalongo	isebalongo	NOUN	_	NounClass=Bantu1|Referent=Yes	1	parataxis	1:parataxis	Gloss=AUG-1.farther_of_twins|MSeg=o-isebalongo|SpaceAfter=No
@@ -1946,7 +1946,7 @@
 7	opurezidenti	purezidenti	NOUN	_	NounClass=Bantu1|Referent=Yes	4	advcl	4:advcl	Gloss=AUG-1.president|MSeg=o-purezidenti
 8	wa	a	PART	GEN	NounClass=Bantu1	9	case	9:case	Gloss=1.GEN|MSeg=wa
 9	iyanga	iyanga	NOUN	_	NounClass=Bantu5	7	nmod	7:nmod	Gloss=5.country|MSeg=iyanga
-10	ojenero	jenero	NOUN	_	NounClass=Bantu1|Referent=Yes	11	nmod:decl	11:nmod:decl	Gloss=AUG-1.general|MSeg=o-jenero
+10	ojenero	jenero	NOUN	_	NounClass=Bantu1|Referent=Yes	11	nmod:desc	11:nmod:desc	Gloss=AUG-1.general|MSeg=o-jenero
 11	Kaguta	Kaguta	PROPN	_	NounClass=Bantu1	7	appos	7:appos	Gloss=1.Kaguta|MSeg=Kaguta
 12	Museveni	Museveni	PROPN	_	NounClass=Bantu1	11	flat:name	11:flat:name	Gloss=1.Museveni|MSeg=Museveni|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
@@ -1982,7 +1982,7 @@
 # sent_id = conversation_Nakasongola1_66
 # text = Namumbyaara era ati
 # english = She produced her her for me and now
-1	Namumbyaara	mbyaara	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu1|NounClass[obj]=Bantu1|Number=Sing|Person=3|Person[obj]=3|Person[iobj]=1|Tense=Nar|VerbForm=Fin|Voice=Appl	0	root	0:root	Gloss=NAR-1S-1O-1sgO-give_birth:APPL-FV|MSeg=ni-a-mu-n-byaar-a
+1	Namumbyaara	mbyaara	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu1|NounClass[obj]=Bantu1|Number=Sing|Person=3|Person[iobj]=1|Person[obj]=3|Tense=Nar|VerbForm=Fin|Voice=Appl	0	root	0:root	Gloss=NAR-1S-1O-1sgO-give_birth:APPL-FV|MSeg=ni-a-mu-n-byaar-a
 2	era	era	CCONJ	_	_	3	cc	3:cc	Gloss=and|MSeg=era
 3	ati	ati	ADV	_	_	1	conj	1:conj	Gloss=now|MSeg=ati|SpacesAfter=\n
 
@@ -2680,7 +2680,7 @@
 # english = The old man accepted to recieve me (to be part of his family)  together with taking his daughter.  (Lit. the old man accepted to produce me together with taking his daughter.)
 1	omuzeeyi	muzeeyi	NOUN	_	NounClass=Bantu1|Referent=Yes	2	nsubj	2:nsubj|3:nsubj:xsubj|6:nsubj:xsubj	Gloss=AUG-1.elderly_person|MSeg=o-muzeeyi
 2	naikiriza	ikiriza	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Nar|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=NAR-1S-accept-FV|MSeg=ni-a-ikiriz-a
-3	okumbyala	byala	VERB	_	Number=Sing|Person=1|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-1sgO-give_birth_to-FV|MSeg=o-ku-n-byal-a
+3	okumbyala	byala	VERB	_	Aspect=Imp|Number=Sing|Person=1|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-1sgO-give_birth_to-FV|MSeg=o-ku-n-byal-a
 4	amwe	amwe	ADV	_	_	6	advmod	6:advmod	Gloss=together|MSeg=amwe
 5-6	n'okutwala	_	_	_	_	_	_	_	_
 5	n'	na	CCONJ	COM	_	6	cc	6:cc	Gloss=COM|MSeg=na
@@ -3500,11 +3500,11 @@
 3	ku	ku	ADV	LOC	NounClass=Bantu17	2	advmod:loc	2:advmod:loc	Gloss=17.LOC|MSeg=ku
 
 # sent_id = conversation_Nakasongola1b_87
-# text =     muwerye omukozi.
+# text = mbaire nkwendya okumujuna muwerye omukozi.
 # english = I wanted to help her and give her a maid.
 1	mbaire	bba	AUX	_	Aspect=Perf|Number=Sing|Person=1|Tense=Pres	2	aux	2:aux	Gloss=1sgS-AUX-PFV|MSeg=n-bba-ire
 2	nkwendya	endya	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1sgS-PROG-want-FV|MSeg=n-ku-endy-a
-3	okumujuna	juna	VERB	_	NounClass=Bantu1|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-1O-help-FV|MSeg=o-ku-mu-jun-a
+3	okumujuna	juna	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-1O-help-FV|MSeg=o-ku-mu-jun-a
 4	muwerye	wa	VERB	_	Aspect=Imp|Mood=Sub|NounClass=Bantu1|Number=Sing|Person=1|Person[obj]=3|VerbForm=Fin|Voice=Appl	3	conj	3:conj	Gloss=1sgS-1O-give:APPL-SBJV|MSeg=n-mu-wery-e
 5	omukozi	mukozi	NOUN	_	NounClass=Bantu1|Referent=Yes	4	obj	4:obj	Gloss=AUG-1.maid|MSeg=o-mukozi|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
@@ -3812,7 +3812,7 @@
 1	baitu	baitu	CCONJ	_	_	6	cc	6:cc	Gloss=but|MSeg=baitu
 2	ni	ni	SCONJ	_	_	4	mark	4:mark	Gloss=when|MSeg=ni
 3	kalibba	bba	AUX	_	Aspect=Imp|NounClass=Bantu12|Person=3|Tense=Fut	4	aux	4:aux	Gloss=12S-FUT-AUX|MSeg=ka-li-bba
-4	bakatuweire	wa	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu2|NounClass[obj]=Bantu12|Number=Plur|Person=3|Person[obj]=3|Person[iobj]=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	Gloss=2S-12O-1plO-give:PFV|MSeg=ba-ka-tu-weire|SpacesAfter=\n
+4	bakatuweire	wa	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu2|NounClass[obj]=Bantu12|Number=Plur|Person=3|Person[iobj]=1|Person[obj]=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	Gloss=2S-12O-1plO-give:PFV|MSeg=ba-ka-tu-weire|SpacesAfter=\n
 5	abaizukulu	muizukulu	NOUN	_	NounClass=Bantu2|Referent=Yes	6	nsubj	6:nsubj	Gloss=AUG-2.grandchild|MSeg=a-baizukulu
 6	balikalya	lya	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu2|NounClass[obj]=Bantu12|Person=3|Person[obj]=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=2S-FUT-12O-eat-FV|MSeg=ba-li-ka-ly-a
 7	oba	oba	CCONJ	_	_	8	cc	8:cc	Gloss=or|MSeg=oba
@@ -3963,7 +3963,7 @@
 # english = he loves eating it so much.
 1	ayendya	endya	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1S-want-FV|MSeg=a-endy-a
 2	muno	muno	ADV	_	_	1	advmod	1:advmod	Gloss=much|MSeg=muno
-3	okukalya	lya	VERB	_	NounClass=Bantu12|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	Gloss=AUG-INF-12O-eat-FV|MSeg=o-ku-ka-ly-a|SpaceAfter=No
+3	okukalya	lya	VERB	_	Aspect=Imp|NounClass=Bantu12|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	Gloss=AUG-INF-12O-eat-FV|MSeg=o-ku-ka-ly-a|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_141
@@ -4325,7 +4325,7 @@
 2	na	na	PART	ADD.FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=ADD.FOC|MSeg=na
 3	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
 4	ndina	lina	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1sgS-have-FV|MSeg=n-lin-a
-5	okumwendya	endya	VERB	_	NounClass=Bantu1|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	Gloss=AUG-INF-1O-want-FV|MSeg=o-ku-mu-endy-a|SpaceAfter=No
+5	okumwendya	endya	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	Gloss=AUG-INF-1O-want-FV|MSeg=o-ku-mu-endy-a|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_183
@@ -4434,7 +4434,7 @@
 3-4	gw'asobola	_	_	_	_	_	_	_	_
 3	gw'	e	PRON	_	NounClass=Bantu1|PronType=Rel	5	obj	2:ref	Gloss=1.REL|MSeg=gwe
 4	asobola	sobola	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	Gloss=1S-can-FV|MSeg=a-sobol-a
-5	okukikobera	koba	VERB	_	NounClass=Bantu7|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Appl	1	xcomp	1:xcomp	Gloss=AUG-INF-7O-say-APPL-FV|MSeg=o-ku-ki-kob-er-a|SpaceAfter=No
+5	okukikobera	koba	VERB	_	Aspect=Imp|NounClass=Bantu7|Person=3|Referent=Yes|VerbForm=Inf|Voice=Appl	1	xcomp	1:xcomp	Gloss=AUG-INF-7O-say-APPL-FV|MSeg=o-ku-ki-kob-er-a|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_195
@@ -5061,7 +5061,7 @@
 # english = but I was forced to persuade her
 1	naye	naye	CCONJ	_	_	2	cc	2:cc	Gloss=but|MSeg=naye
 2	nawalizibwe	waliza	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	Gloss=1sgS-PST-force-PASS:PFV|MSeg=n-a-waliz-ibwe
-3	okumusendasenda	sendasenda	VERB	_	NounClass=Bantu1|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-1O-persuade-FV|MSeg=o-ku-mu-sendasend-a|SpacesAfter=\n
+3	okumusendasenda	sendasenda	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-1O-persuade-FV|MSeg=o-ku-mu-sendasend-a|SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_269
 # text = Nimukoba omaite…
@@ -5095,7 +5095,7 @@
 # english = and I want to tell you that I run
 1	era	era	CCONJ	_	_	2	cc	2:cc	Gloss=and|MSeg=era
 2	nkwendya	endya	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1sgS-PROG-want-FV|MSeg=n-ku-endy-a
-3	okukutegeeza	tegeeza	VERB	_	Number=Sing|Person=2|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-2sgO-tell-FV|MSeg=o-ku-ku-tegeez-a
+3	okukutegeeza	tegeeza	VERB	_	Aspect=Imp|Number=Sing|Person=2|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Gloss=AUG-INF-2sgO-tell-FV|MSeg=o-ku-ku-tegeez-a
 4	nti	nti	SCONJ	COMPL	_	5	mark	5:mark	Gloss=COMPL|MSeg=nti
 5	nyiruka	iruka	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	Gloss=1sgS-run-FV|MSeg=n-iruk-a|SpacesAfter=\n
 
@@ -5594,7 +5594,7 @@
 # sent_id = conversation_Nakasongola2_41
 # text = Okubirya embereenge…
 # english = To eat them as crisps…
-1	Okubirya	lya	VERB	_	NounClass=Bantu8|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	0	root	0:root	Gloss=AUG-INF-8O-eat-FV|MSeg=o-ku-bi-ly-a
+1	Okubirya	lya	VERB	_	Aspect=Imp|NounClass=Bantu8|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	0	root	0:root	Gloss=AUG-INF-8O-eat-FV|MSeg=o-ku-bi-ly-a
 2	embereenge	mbereenge	NOUN	_	NounClass=Bantu9|Referent=Yes	1	obl	1:obl	Gloss=AUG-9.roasted_corn|MSeg=e-mbereenge|SpaceAfter=No
 3	…	…	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
@@ -6319,7 +6319,7 @@
 # sent_id = conversation_Nakasongola2_120
 # text = okumukinga nekwongera enzala.
 # english = the guarding of it has increased famine.
-1	okumukinga	kinga	VERB	_	NounClass=Bantu1|Person=3|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	2	csubj	2:csubj	Gloss=AUG-INF-1O-protect-FV|MSeg=o-ku-mu-king-a
+1	okumukinga	kinga	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	2	csubj	2:csubj	Gloss=AUG-INF-1O-protect-FV|MSeg=o-ku-mu-king-a
 2	nekwongera	ongera	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu15|Person=3|Tense=Nar|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=NAR-15S-increase-FV|MSeg=ni-ku-onger-a
 3	enzala	nzala	NOUN	_	NounClass=Bantu9|Referent=Yes	2	obj	2:obj	Gloss=AUG-9.hunger|MSeg=e-nzala|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
@@ -9107,7 +9107,7 @@
 # text = Oteekwa okuneigulira wena wena kinsobozesye okubona buli kimwei kye nkwendya.
 # english = In order for this all to work, you need to completely let me in.
 1	Oteekwa	teekwa	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=2sgS-must-FV|MSeg=o-teekw-a
-2	okuneigulira	eigula	VERB	_	Number=Sing|Person=1|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Appl	1	xcomp	1:xcomp	Gloss=AUG-INF-1sgO-TODO-APPL-FV|MSeg=o-ku-n-eigul-ir-a
+2	okuneigulira	eigula	VERB	_	Aspect=Imp|Number=Sing|Person=1|Referent=Yes|VerbForm=Inf|Voice=Appl	1	xcomp	1:xcomp	Gloss=AUG-INF-1sgO-TODO-APPL-FV|MSeg=o-ku-n-eigul-ir-a
 3	wena	ona	PRON	_	Number=Plur|Person=2|PronType=Tot	2	obj	2:obj	Gloss=you_all|MSeg=weena
 4	wena	ona	PRON	_	Number=Plur|Person=2|PronType=Tot	3	flat	3:flat	Gloss=you_all|MSeg=weena
 5	kinsobozesye	sobola	VERB	_	Aspect=Imp|Mood=Sub|NounClass=Bantu7|Number=Sing|Person=3|Person[obj]=1|VerbForm=Fin|Voice=Cau	2	advcl	2:advcl	Gloss=7S-1sgO-be_able-CAUS-SBJV|MSeg=ki-n-sobol-esy-e
@@ -9989,7 +9989,7 @@
 2	okusanga	sanga	VERB	_	Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	_
 3	omusaiza	musaiza	NOUN	_	NounClass=Bantu1|Referent=Yes	2	obj	2:obj|4:nsubj|5:nsubj:xsubj	_
 4	eyatakanga	taka	VERB	REL	Aspect=Hab|Mood=Ind|NounClass=Bantu1|Person=3|Referent=Yes|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
-5	okunswera	swera	VERB	_	Number=Sing|Person=1|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	SpaceAfter=No
+5	okunswera	swera	VERB	_	Aspect=Imp|Number=Sing|Person=1|Referent=Yes|VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = grammar_Syntax_23b
@@ -10181,7 +10181,7 @@
 # text = Nibataka okutubandwisya oKawumpuli.
 # english = They wanted to make us worship Kawumpuli.
 1	Nibataka	taka	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Nar|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	okutubandwisya	bandwa	VERB	_	Number=Sing|Person=1|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Cau	1	xcomp	1:xcomp	_
+2	okutubandwisya	bandwa	VERB	_	Aspect=Imp|Number=Sing|Person=1|Referent=Yes|VerbForm=Inf|Voice=Cau	1	xcomp	1:xcomp	_
 3	oKawumpuli	Kawumpuli	PROPN	-	NounClass=Bantu1|Referent=Yes	2	obj	2:obj	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
@@ -10241,7 +10241,7 @@
 4	bakwetaaga	eetaaga	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
 5	emiyo	muyo	NOUN	_	NounClass=Bantu4|Referent=Yes	4	obj	4:obj|7:nsubj:xsubj	_
 6	gini	ni	DET	_	Deixis=Prox|NounClass=Bantu4|PronType=Dem	5	det	5:det	_
-7	okukekesya	keka	VERB	_	Referent=Yes|VerbForm=Ind|Voice=Act	4	xcomp	4:xcomp	_
+7	okukekesya	keka	VERB	_	Referent=Yes|VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	_
 8	ebiteere	kiteere	NOUN	_	NounClass=Bantu8|Referent=Yes	7	obj	7:obj	SpaceAfter=No
 9	…	…	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
@@ -10812,7 +10812,7 @@
 # english = Can you get me one guinea fowl?
 1	Oyinza	yinza	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2-3	kunfunirayo	_	_	_	_	_	_	_	_
-2	kunfunira	funa	VERB	_	Referent=Yes|Number=Sing|Person=1|Aspect=Imp|VerbForm=Inf|Voice=Appl	1	xcomp	1:xcomp	_
+2	kunfunira	funa	VERB	_	Aspect=Imp|Number=Sing|Person=1|Referent=Yes|VerbForm=Inf|Voice=Appl	1	xcomp	1:xcomp	_
 3	yo	yo	ADV	LOC	NounClass=Bantu23	2	advmod:loc	2:advmod:loc	_
 4	onkowu	nkowu	NOUN	_	NounClass=Bantu1|Referent=Yes	2	obj	2:obj	_
 5	omwei	mwe	NUM	_	NounClass=Bantu1	4	nummod	4:nummod	SpaceAfter=No
@@ -10899,7 +10899,7 @@
 1	Omusaiza	musaiza	NOUN	_	NounClass=Bantu1|Referent=Yes	2	nsubj	2:nsubj|3:nsubj:xsubj	_
 2	ayinza	yinza	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Tense=Pres|Voice=Act	0	root	0:root	_
 3-4	obutaleetawo	_	_	_	_	_	_	_	_
-3	obutaleeta	leeta	VERB	_	Polarity=Neg|Aspect=Imp|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
+3	obutaleeta	leeta	VERB	_	Aspect=Imp|Polarity=Neg|Referent=Yes|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
 4	wo	wo	ADV	LOC	NounClass=Bantu16	3	advmod:loc	3:advmod:loc	_
 5	mukali	mukali	NOUN	_	NounClass=Bantu1	3	obj	3:obj	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
