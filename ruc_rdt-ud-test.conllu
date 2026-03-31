@@ -1158,7 +1158,7 @@
 7	omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	8	case	8:case	Gloss=AUG-18.LOC|MSeg=o-mu
 8	mutala	mutala	NOUN	_	NounClass=Bantu3	6	obl	6:obl	Gloss=3.village|MSeg=mutala
 9	eyo	eyo	ADV	_	Deixis=Med|NounClass=Bantu23|PronType=Dem	6	advmod	6:advmod	Gloss=23.MED|MSeg=eyo|SpaceAfter=No
-10	,	,	PUNCT	_	_	8	punct	8:punct	SpacesAfter=\n
+10	,	,	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
 11	amawakame	wakame	NOUN	_	NounClass=Bantu6|Referent=Yes	12	nsubj	12:nsubj	Gloss=AUG-6.hare|MSeg=a-mawakame
 12	gazonka	onka	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu6|NounClass[obj]=Bantu10|Person=3|Person[obj]=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	Gloss=6S-10O-suck-FV|MSeg=ga-zi-onk-a|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
@@ -8054,8 +8054,8 @@
 # english = What is here that I know
 1	Ekitaa	ta	AUX	REL-COP	Aspect=Imp|NounClass=Bantu7|Person=3|Referent=Yes|Tense=Pres	2	cop	2:cop	Gloss=S.REL-7S-COP|MSeg=e-ki-taa
 2	ani	ani	ADV	_	Deixis=Prox|NounClass=Bantu16|PronType=Dem	0	root	0:root	Gloss=here|MSeg=ani
-3	kye	e	PRON	_	NounClass=Bantu7|PronType=Rel	2	nsubj	2:nsubj	Gloss=7.REL|MSeg=kye
-4	mmaite	manya	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	2:csubj	Gloss=1sgS-know:PFV|MSeg=n-maite|SpaceAfter=No
+3	kye	e	PRON	_	NounClass=Bantu7|PronType=Rel	2	nsubj	4:obj	Gloss=7.REL|MSeg=kye
+4	mmaite	manya	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	Gloss=1sgS-know:PFV|MSeg=n-maite|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola2_311
@@ -8449,7 +8449,7 @@
 4	...	...	PUNCT	_	_	3	punct	3:punct	_
 5	lwali	lwali	NOUN	_	NounClass=Bantu11	3	obl	3:obl	Gloss=11.day|MSeg=lwali
 6	olwo	o	DET	_	Deixis=Med|NounClass=Bantu11|PronType=Dem	5	det	5:det	Gloss=11.MED|MSeg=olwo|SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
+7	,	,	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = conversation_Sokoso_32
 # text = Iyii.
@@ -8583,7 +8583,7 @@
 # english = …after she has made her dance."
 1	…	…	PUNCT	_	_	2	punct	2:punct	SpaceAfter=No
 2	asooka	sooka	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1S-do_first-FV|MSeg=a-sook-a
-3	kumubinishya	bina	VERB	_	NounClass=Bantu1|Person=3|VerbForm=Inf|Voice=Cau	1	xcomp	1:xcomp	Gloss=INF-1O-dance-CAUS-FV|MSeg=ku-mu-bin-isy-a|SpaceAfter=No
+3	kumubinishya	bina	VERB	_	NounClass=Bantu1|Person=3|VerbForm=Inf|Voice=Cau	2	xcomp	2:xcomp	Gloss=INF-1O-dance-CAUS-FV|MSeg=ku-mu-bin-isy-a|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	2:punct	SpaceAfter=No
 5	"	"	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
@@ -9478,10 +9478,10 @@
 # sent_id = film_Inception_81
 # text = Okumwita kiba kikumuzukusya.
 # english = Killing him would just wake him up.
-1	Okumwita	ita	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	3	csubj:outer	3:csubj:outer	Gloss=AUG-INF-1O-kill-FV|MSeg=o-ku-mu-it-a
-2	kiba	bba	VERB	COP	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	Gloss=7S-COP-FV|MSeg=ki-bb-a
-3	kikumuzukusya	zukusya	VERB	_	Aspect=Prog|NounClass=Bantu7|NounClass[obj]=Bantu1|Person=3|Person[obj]=3	0	root	0:root	Gloss=7S-PROG-1O-awaken-FV|MSeg=ki-ku-mu-zukusy-a|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+1	Okumwita	ita	VERB	_	Aspect=Imp|NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf|Voice=Act	2	csubj:outer	2:csubj:outer	Gloss=AUG-INF-1O-kill-FV|MSeg=o-ku-mu-it-a
+2	kiba	bba	VERB	COP	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=7S-COP-FV|MSeg=ki-bb-a
+3	kikumuzukusya	zukusya	VERB	_	Aspect=Prog|NounClass=Bantu7|NounClass[obj]=Bantu1|Person=3|Person[obj]=3	2	advcl	2:advcl	Gloss=7S-PROG-1O-awaken-FV|MSeg=ki-ku-mu-zukusy-a|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = film_Inception_82
 # text = Naye obulumi…
@@ -9575,7 +9575,7 @@
 1	Kini	ni	PRON	_	Deixis=Prox|NounClass=Bantu7|Person=3|PronType=Dem	3	nsubj	3:nsubj	Gloss=7.PROX|MSeg=kini
 2	tekikwaba	aba	AUX	_	Aspect=Prog|NounClass=Bantu7|Person=3|Polarity=Neg|Tense=Pres	3	aux	3:aux	Gloss=NEG-7S-PROG-go-FV|MSeg=ti-ki-ku-ab-a
 3	kukola	kola	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	0:root	Gloss=INF-do-FV|MSeg=ku-kol-a|SpaceAfter=No
-4	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = film_Inception_94
 # text = Mwimule omu tulo.
@@ -9590,7 +9590,7 @@
 # english = He won't wake.
 1	Takwiza	iza	AUX	_	Aspect=Prog|NounClass=Bantu1|Person=3|Polarity=Neg|Tense=Pres	2	aux	2:aux	Gloss=NEG-1S-PROG-come-FV|MSeg=ti-a-ku-iz-a
 2	kwimuka	imuka	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	0:root	Gloss=INF-wake_up-FV|MSeg=ku-imuk-a|SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
+3	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = film_Inception_96
 # text = Muwerye ekick.
