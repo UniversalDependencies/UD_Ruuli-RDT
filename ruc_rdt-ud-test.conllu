@@ -26,7 +26,7 @@
 3	bini	ni	DET	_	Deixis=Prox|NounClass=Bantu8|PronType=Dem	2	det	2:det	Gloss=8.PROX|MSeg=bini
 4-5	timulumu	_	_	_	_	_	_	_	_
 4	timulu	li	AUX	COP	Aspect=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	6	cop	6:cop	Gloss=NEG-2plS-COP|MSeg=ti-mu-li
-5	mu	mu	ADV	LOC	NounClass=Bantu18	4	advmod	4:advmod	Gloss=18.LOC|MSeg=mu
+5	mu	mu	ADV	LOC	NounClass=Bantu18	6	advmod:loc	4:advmod:loc	Gloss=18.LOC|MSeg=mu
 6	gwangu	angu	ADJ	_	NounClass=Bantu3	0	root	0:root	Gloss=3-easy|MSeg=gu-angu|SpacesAfter=\n
 
 # sent_id = factual_Aniinire_3
@@ -264,7 +264,7 @@
 # text = natandika kweirukira,
 # english = she began to run (lit. begun running for herself),
 1	natandika	tandika	VERB	_	Mood=Ind|NounClass=Bantu1|Person=3|Tense=Nar|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=NAR-1S-start-FV|MSeg=ni-a-tandik-a
-2	kweirukira	iruka	VERB	_	Aspect=Imp|VerbForm=Inf|Voice[1]=Appl|Voice[2]=Rfl	1	xcomp	1:xcomp	Gloss=INF-REFL-run-APPL-FV|MSeg=ku-ee-iruk-ir-a|SpaceAfter=No
+2	kweirukira	iruka	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Appl|Voice[add]=Rfl	1	xcomp	1:xcomp	Gloss=INF-REFL-run-APPL-FV|MSeg=ku-ee-iruk-ir-a|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = conversation_Gweero_2
@@ -3633,7 +3633,7 @@
 # text = yakuure akwekoora emirimo gyamwe
 # english = she grew up while doing her own work
 1	yakuure	kula	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Gloss=1S-PST-grow:PFV|MSeg=a-a-kuure
-2	akwekoora	kola	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice[1]=Appl|Voice[2]=Rfl	1	advcl	1:advcl	Gloss=1S-PROG-REFL-do:APPL-FV|MSeg=a-ku-ee-koor-a
+2	akwekoora	kola	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice=Appl|Voice[add]=Rfl	1	advcl	1:advcl	Gloss=1S-PROG-REFL-do:APPL-FV|MSeg=a-ku-ee-koor-a
 3	emirimo	murimo	NOUN	_	NounClass=Bantu4|Referent=Yes	2	obj	2:obj	Gloss=AUG-4.work|MSeg=e-mirimo
 4	gyamwe	amwe	PRON	ASSOC	NounClass[psed]=Bantu4|NounClass[psor]=Bantu1|Person[psed]=3|Person[psor]=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Gloss=4-1.POSS|MSeg=gya-amwe|SpacesAfter=\n
 
@@ -4596,7 +4596,7 @@
 # sent_id = conversation_Nakasongola1b_214
 # text = bakyekoora.
 # english = they still work for themselves.
-1	bakyekoora	kola	VERB	_	Aspect=Pers|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice[1]=Appl|Voice[2]=Rfl	0	root	0:root	Gloss=2S-PERS-REFL-do:APPL-FV|MSeg=ba-kya-ee-koor-a|SpaceAfter=No
+1	bakyekoora	kola	VERB	_	Aspect=Pers|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice=Appl|Voice[add]=Rfl	0	root	0:root	Gloss=2S-PERS-REFL-do:APPL-FV|MSeg=ba-kya-ee-koor-a|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_215
@@ -4767,7 +4767,7 @@
 2-3	n'akubba	_	_	_	_	_	_	_	_
 2	n'	ni	SCONJ	_	_	4	mark	4:mark	Gloss=when|MSeg=ni
 3	akubba	bba	AUX	_	Aspect=Prog|NounClass=Bantu1|Person=3|Tense=Pres	4	aux	4:aux	Gloss=1S-PROG-AUX|MSeg=a-ku-bba
-4	akwekolesya	kola	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice[1]=Cau|Voice[2]=Rfl	0	root	0:root	Gloss=1S-PROG-REFL-do-CAUS-FV|MSeg=a-ku-ee-kol-esy-a|SpacesAfter=\n
+4	akwekolesya	kola	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau|Voice[add]=Rfl	0	root	0:root	Gloss=1S-PROG-REFL-do-CAUS-FV|MSeg=a-ku-ee-kol-esy-a|SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_234
 # text = kyoona kibba kisai.
@@ -4786,7 +4786,7 @@
 3	n'	ni	SCONJ	_	_	4	mark	4:mark	Gloss=if|MSeg=ni
 4	obba	bba	VERB	COP	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	Gloss=2sgS-COP|MSeg=o-bba
 5	nga	nga	SCONJ	_	_	6	mark	6:mark	Gloss=while|MSeg=nga
-6	okwekolesya	kola	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice[1]=Cau|Voice[2]=Rfl	1	advcl	1:advcl	Gloss=2sgS-PROG-REFL-do-CAUS-FV|MSeg=o-ku-ee-kol-esy-a|SpaceAfter=No
+6	okwekolesya	kola	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Cau|Voice[add]=Rfl	1	advcl	1:advcl	Gloss=2sgS-PROG-REFL-do-CAUS-FV|MSeg=o-ku-ee-kol-esy-a|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_236
@@ -8413,7 +8413,7 @@
 2	"	"	PUNCT	_	_	3	punct	3:punct	SpaceAfter=No
 3	ndimala	mala	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	Gloss=1sgS-FUT-finish-FV|MSeg=n-li-mal-a
 4-5	kweboneraku	_	_	_	_	_	_	_	SpaceAfter=No
-4	kwebonera	bona	VERB	_	Aspect=Imp|VerbForm=Inf|Voice[1]=Appl|Voice[2]=Rfl	3	xcomp	3:xcomp	Gloss=INF-REFL-see-APPL-FV|MSeg=ku-ee-bon-er-a
+4	kwebonera	bona	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Appl|Voice[add]=Rfl	3	xcomp	3:xcomp	Gloss=INF-REFL-see-APPL-FV|MSeg=ku-ee-bon-er-a
 5	ku	ku	ADV	LOC	NounClass=Bantu17	4	advmod:loc	4:advmod:loc	Gloss=17.LOC|MSeg=ku
 6	…	…	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
@@ -8439,7 +8439,7 @@
 # text = …Kwebonera."
 # english = …See for myself."
 1	…	…	PUNCT	_	_	2	punct	2:punct	SpaceAfter=No
-2	Kwebonera	bona	VERB	_	Aspect=Imp|VerbForm=Inf|Voice[1]=Appl|Voice[2]=Rfl	0	root	0:root	Gloss=INF-REFL-see-APPL-FV|MSeg=ku-ee-bon-er-a|SpaceAfter=No
+2	Kwebonera	bona	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Appl|Voice[add]=Rfl	0	root	0:root	Gloss=INF-REFL-see-APPL-FV|MSeg=ku-ee-bon-er-a|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	2:punct	SpaceAfter=No
 4	"	"	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
@@ -10257,7 +10257,7 @@
 # english = In the past  people used to help themselves a lot with (the advice from) elders.
 1	Eirai	irai	ADV	_	Referent=Yes	3	advmod	3:advmod	_
 2	abantu	muntu	NOUN	_	NounClass=Bantu2|Referent=Yes	3	nsubj	3:nsubj	_
-3	beyambisyanga	yamba	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice[1]=Cau|Voice[2]=Rfl	0	root	0:root	_
+3	beyambisyanga	yamba	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau|Voice[add]=Rfl	0	root	0:root	_
 4	muno	muno	ADV	_	_	3	advmod	3:advmod	_
 5	abantu	muntu	NOUN	_	NounClass=Bantu2|Referent=Yes	3	obj:caus	3:obj:caus	_
 6	abakulu	kulu	ADJ	_	NounClass=Bantu2|Referent=Yes	5	amod	5:amod	SpaceAfter=No
@@ -10359,7 +10359,7 @@
 1-2	Njeena	_	_	_	_	_	_	_	_
 1	Njee	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
 2	na	na	PART	ADD.FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	_
-3	neelumira	luma	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice[1]=Appl|Voice[2]=Rfl	0	root	0:root	_
+3	neelumira	luma	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Appl|Voice[add]=Rfl	0	root	0:root	_
 4	eyo	eyo	ADV	_	Deixis=Med|NounClass=Bantu23|PronType=Dem	3	advmod	3:advmod	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
