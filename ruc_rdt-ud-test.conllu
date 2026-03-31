@@ -8054,7 +8054,7 @@
 # english = What is here that I know
 1	Ekitaa	ta	AUX	REL-COP	Aspect=Imp|NounClass=Bantu7|Person=3|Referent=Yes|Tense=Pres	2	cop	2:cop	Gloss=S.REL-7S-COP|MSeg=e-ki-taa
 2	ani	ani	ADV	_	Deixis=Prox|NounClass=Bantu16|PronType=Dem	0	root	0:root	Gloss=here|MSeg=ani
-3	kye	e	PRON	_	NounClass=Bantu7|PronType=Rel	2	nsubj	4:obj	Gloss=7.REL|MSeg=kye
+3	kye	e	PRON	_	NounClass=Bantu7|PronType=Rel	2	nsubj	2:nsubj|4:obj	Gloss=7.REL|MSeg=kye
 4	mmaite	manya	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	Gloss=1sgS-know:PFV|MSeg=n-maite|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
