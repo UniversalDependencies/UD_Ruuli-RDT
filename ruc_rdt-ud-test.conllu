@@ -3774,7 +3774,7 @@
 2-3	ndoowo	_	_	_	_	_	_	_	_
 2	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	0	root	0:root	Gloss=NEG.COP|MSeg=ndoo
 3	wo	wo	ADV	LOC	NounClass=Bantu16	2	advmod:loc	2:advmod:loc	Gloss=16.LOC|MSeg=wo
-4	mwana	mwana	NOUN	_	NounClass=Bantu1	2	nsubj	2:root|6:nsubj	Gloss=1.child|MSeg=mwana
+4	mwana	mwana	NOUN	_	NounClass=Bantu1	2	nsubj	2:nsubj|6:nsubj	Gloss=1.child|MSeg=mwana
 5	ali	li	AUX	COP	NounClass=Bantu1|Person=3|Tense=Pres	6	cop	6:cop	Gloss=1S-COP|MSeg=a-li
 6	eka	eka	NOUN	_	NounClass=Bantu9	4	acl:relcl	4:acl:relcl	Gloss=9.home|MSeg=eka|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
@@ -4043,7 +4043,7 @@
 4	omukoi	mukoi	NOUN	_	NounClass=Bantu1|Referent=Yes	8	iobj:appl	8:iobj:appl	Gloss=AUG-1.in_law|MSeg=o-mukoi
 5	waamwe	amwe	PRON	ASSOC	NounClass[psed]=Bantu1|NounClass[psor]=Bantu1|Person[psed]=3|Person[psor]=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Gloss=1-1.POSS|MSeg=wa-amwe
 6	ni	ni	SCONJ	_	_	8	mark	8:mark	Gloss=when|MSeg=ni
-7	mba	bba	AUX	_	Number=Sing|Person=1|Tense=Pres	8	cop	8:cop	Gloss=1sgS-AUX|MSeg=n-bba
+7	mba	bba	AUX	_	Number=Sing|Person=1|Tense=Pres	8	aux	8:aux	Gloss=1sgS-AUX|MSeg=n-bba
 8	mmuleeteire	leeta	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Person[obj]=3|Tense=Pres|VerbForm=Fin|Voice=Appl	0	root	0:root	Gloss=1sgS-1O-bring-APPL:PFV|MSeg=n-mu-leet-eire
 9	kaita	kaita	NOUN	_	NounClass=Bantu12	8	obj	8:obj	Gloss=12.millet|MSeg=kaita|SpacesAfter=\n
 
