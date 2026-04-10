@@ -3770,14 +3770,14 @@
 # sent_id = conversation_Nakasongola1b_119
 # text = So ndoowo mwana ali eka.
 # english = So no child is at home.
-1	So	so	ADV	_	_	4	advmod	4:advmod	Gloss=so|MSeg=so
+1	So	so	ADV	_	_	2	advmod	2:advmod	Gloss=so|MSeg=so
 2-3	ndoowo	_	_	_	_	_	_	_	_
-2	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	4	advmod:cop	4:advmod:cop	Gloss=NEG.COP|MSeg=ndoo
-3	wo	wo	ADV	LOC	NounClass=Bantu16	4	advmod:loc	4:advmod:loc	Gloss=16.LOC|MSeg=wo
-4	mwana	mwana	NOUN	_	NounClass=Bantu1	0	root	0:root|6:nsubj	Gloss=1.child|MSeg=mwana
+2	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	0	root	0:root	Gloss=NEG.COP|MSeg=ndoo
+3	wo	wo	ADV	LOC	NounClass=Bantu16	2	advmod:loc	2:advmod:loc	Gloss=16.LOC|MSeg=wo
+4	mwana	mwana	NOUN	_	NounClass=Bantu1	2	nsubj	2:root|6:nsubj	Gloss=1.child|MSeg=mwana
 5	ali	li	AUX	COP	NounClass=Bantu1|Person=3|Tense=Pres	6	cop	6:cop	Gloss=1S-COP|MSeg=a-li
 6	eka	eka	NOUN	_	NounClass=Bantu9	4	acl:relcl	4:acl:relcl	Gloss=9.home|MSeg=eka|SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
+7	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola1b_120
 # text = Oh bambi.
@@ -6897,9 +6897,9 @@
 4	ku	ku	ADV	LOC	NounClass=Bantu17	3	advmod:loc	3:advmod:loc	Gloss=17.LOC|MSeg=ku
 5	nga	nga	SCONJ	_	_	7	mark	7:mark	Gloss=while|MSeg=nga
 6-7	ndooyo	_	_	_	_	_	_	_	_
-6	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	7	advmod:cop	7:advmod:cop	Gloss=NEG.COP|MSeg=ndoo
-7	yo	yo	ADV	LOC	NounClass=Bantu23	3	advcl	3:advcl	Gloss=23.LOC|MSeg=yo
-8	ikendi	ikendi	NOUN	_	NounClass=Bantu1	7	nsubj	7:nsubj	Gloss=1.rain|MSeg=ikendi|SpaceAfter=No
+6	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	3	advcl	3:advcl	Gloss=NEG.COP|MSeg=ndoo
+7	yo	yo	ADV	LOC	NounClass=Bantu23	6	advmod:loc	6:advmod:loc	Gloss=23.LOC|MSeg=yo
+8	ikendi	ikendi	NOUN	_	NounClass=Bantu1	6	nsubj	6:nsubj	Gloss=1.rain|MSeg=ikendi|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = conversation_Nakasongola2_183
@@ -9005,9 +9005,9 @@
 9	noba	bba	VERB	COP	Mood=Ind|Number=Sing|Person=2|Tense=Nar|VerbForm=Fin	5	conj	5:conj	Gloss=NAR-2sgS-COP|MSeg=ni-o-bba
 10	nga	nga	SCONJ	_	_	11	mark	11:mark	Gloss=while|MSeg=nga
 11-12	ndoowo	_	_	_	_	_	_	_	_
-11	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	13	advmod:cop	13:advmod:cop	Gloss=NEG.COP|MSeg=ndoo
+11	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	9	advcl	9:advcl	Gloss=NEG.COP|MSeg=ndoo
 12	wo	wo	ADV	LOC	NounClass=Bantu16	11	advmod:loc	11:advmod:loc	Gloss=16.LOC|MSeg=wo
-13	muntu	muntu	NOUN	_	NounClass=Bantu1	9	advcl	9:advcl|14:nsubj	Gloss=1.person|MSeg=muntu
+13	muntu	muntu	NOUN	_	NounClass=Bantu1	11	nsubj	11:nsubj|14:nsubj	Gloss=1.person|MSeg=muntu
 14	asobola	sobola	VERB	_	Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	Gloss=1S-be_able-FV|MSeg=a-sobol-a
 15	okwiyamu	iyamua	VERB	_	Referent=Yes|VerbForm=Inf	14	xcomp	14:xcomp	Gloss=AUG-INF-extract|MSeg=o-ku-iyamu
 16	ekintu	kintu	NOUN	_	NounClass=Bantu7|Referent=Yes	15	obj	15:obj	Gloss=AUG-7.thing|MSeg=e-kintu
@@ -9064,7 +9064,7 @@
 5	noba	bba	VERB	COP	Mood=Ind|Number=Sing|Person=2|Tense=Nar|VerbForm=Fin	4	conj	4:conj	Gloss=NAR-2sgS-COP-FV|MSeg=ni-o-bba-a
 6	nga	nga	SCONJ	_	_	12	mark	12:mark	Gloss=while|MSeg=nga
 7-8	ndowo	_	_	_	_	_	_	_	_
-7	ndo	ndo	ADV	NEG.COP	Polarity=Neg	9	advmod:cop	9:advmod:cop	Gloss=NEG.COP|MSeg=ndoo
+7	ndo	ndoo	ADV	NEG.COP	Polarity=Neg	9	advmod:cop	9:advmod:cop	Gloss=NEG.COP|MSeg=ndoo
 8	wo	wo	ADV	LOC	NounClass=Bantu16	7	advmod:loc	7:advmod:loc	Gloss=16.LOC|MSeg=wo
 9	muntu	muntu	NOUN	_	NounClass=Bantu1	3	advcl	3:advcl|12:nsubj	Gloss=1.person|MSeg=muntu
 10-11	yena	_	_	_	_	_	_	_	_
@@ -11364,12 +11364,12 @@
 # text = Baamubbwere nga ndoowo bujuurwa.
 # english = He was imprisoned without any evidence.
 1	Baamubbwere	bbwa	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu2|NounClass[obj]=Bantu1|Person=3|Person[obj]=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-2	nga	nga	SCONJ	_	_	4	mark	4:mark	_
+2	nga	nga	SCONJ	_	_	3	mark	3:mark	_
 3-4	ndoowo	_	_	_	_	_	_	_	_
-3	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	4	advmod:cop	4:advmod:cop	_
-4	wo	wo	ADV	LOC	NounClass=Bantu16	1	advcl	1:advcl	_
-5	bujuurwa	bujuurwa	NOUN	_	NounClass=Bantu14	4	nsubj	4:nsubj	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
+3	ndoo	ndoo	ADV	NEG.COP	Polarity=Neg	1	advcl	1:advcl	_
+4	wo	wo	ADV	LOC	NounClass=Bantu16	3	advmod:loc	3:advmod:loc	_
+5	bujuurwa	bujuurwa	NOUN	_	NounClass=Bantu14	3	nsubj	3:nsubj	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Syntax_81
 # text = Nga taliisirye nkoko, yatambwirembe.
