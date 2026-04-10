@@ -1,35 +1,34 @@
 # Summary
 
-UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (Ruuli) language. The annotation was converted from glosses as manuaally suplimented for the syntactic raltions. This treebank includes texts from various sources: nonfiction, fiction, grammar, and spoken conversation. The treebank contains 6k tokens.
+UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (Ruuli) language. The annotation was converted from interlinear glossed text and manually supplemented with syntactic relations. The treebank includes texts from various sources: nonfiction, fiction, grammar examples, and spoken conversation. The treebank contains approximately 6,000 tokens.
 
 # Introduction
 
-The UD_Ruuli-KDT treebank consists of various texts recorded in Ruuli or translated into it by native speakers, then glossed and annotated. The included texts are:
+The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into it by native speakers, and subsequently glossed and annotated. The included texts are:
 
-* conversation_Gweero (595 words): TODO 
-* conversation_Nakasongola1 (795 words): TODO
-* conversation_Nakasongola1b (1224 words): TODO
-* conversation_Nakasongola2 (1544 words): TODO
-* conversation_Sokoso (373 words): TODO
-* film_Inception (470 words): A section of subtitles from Inception (2010)
-* grammar_Syntax (937 words): Examples in the Syntax part of the grammar by Namyalo et al. (2021).
-* nonfiction_Aniinire (70 words): TODO
+* conversation_Gweero (595 words): TODO  
+* conversation_Nakasongola1 (795 words): TODO  
+* conversation_Nakasongola1b (1224 words): TODO  
+* conversation_Nakasongola2 (1544 words): TODO  
+* conversation_Sokoso (373 words): TODO  
+* film_Inception (470 words): A section of subtitles from *Inception* (2010)  
+* grammar_Syntax (937 words): Examples from the syntax section of Namyalo et al. (2021)  
+* nonfiction_Aniinire (70 words): TODO  
 
+All sentences were converted from interlinear glossed text into CoNLL-U format using a custom conversion script. The syntactic relations were subsequently manually annotated following the UD framework.
 
-All sentennces were converted from interlinear glossed text into CoNLL-U format using a custom conversion script. The syntactic relations were subsequently manually annotated according to the UD framework.
-
-The sentences from the book, as well as the comnversations, were shuffled.
+Sentences from written texts and conversations were shuffled.
 
 # Genre Classification
 
-* Fiction: Sentence IDs start with film.
-* Grammar: Sentence IDs start with grammar.
-* Nonfiction: Sentence IDs start with nonfictoin.
-* Spoken: Sentence IDs start with conversation.
+* Fiction: sentence IDs start with `film`
+* Grammar: sentence IDs start with `grammar`
+* Nonfiction: sentence IDs start with `nonfiction`
+* Spoken: sentence IDs start with `conversation`
 
 # Acknowledgments
 
- * This work was supported by the project "Event Packaging in Language" (University of Zurich Global Strategy and Partnerships Funding Scheme, 2023–2026).
+This work was supported by the project "Event Packaging in Language" (University of Zurich Global Strategy and Partnerships Funding Scheme, 2023–2026).
    
 ## References
 
