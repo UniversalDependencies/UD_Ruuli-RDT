@@ -10,7 +10,7 @@ The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into
 * conversation_Nakasongola1 (795 words): Biographic monologue on childhood years, schooling, work, and other life experiences 
 * conversation_Nakasongola1b (1224 words): Conversation between two speakers, a male and a female, about taking care of their elderly parents  
 * conversation_Nakasongola2 (1544 words): Conversation between two females about socio-economic issues  
-* conversation_Sokoso (373 words): A traditional oral folktale about a woman who mistreated her mother-in-law.  
+* conversation_Sokoso (373 words): A traditional oral folktale about a woman who mistreated her mother-in-law  
 * film_Inception (470 words): An excerpt from the translated subtitles for the film *Inception* (2010)  
 * grammar_Syntax (937 words): Language examples from *A dictionary and grammatical sketch of Ruruuli-Lunyala* (Namyalo et al. 2021)  
 * nonfiction_Aniinire (70 words): An excerpt from factual prose on the history and traditions of the language speakers  
