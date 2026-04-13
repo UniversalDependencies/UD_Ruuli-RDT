@@ -17,14 +17,14 @@ The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into
 
 All sentences were converted from interlinear glossed text into CoNLL-U format using a custom conversion script. The syntactic relations were subsequently manually annotated following the UD framework.
 
-Sentences from written texts and conversations were shuffled.
+Sentences from written texts and conversations were shuffled to anonymize the data.
 
 # Genre Classification
 
-* Fiction: sentence IDs start with `film`
-* Grammar: sentence IDs start with `grammar`
-* Nonfiction: sentence IDs start with `nonfiction`
-* Spoken: sentence IDs start with `conversation`
+* Movie subtitles: sentence IDs start with `film`
+* Examples from the grammatical sketch: sentence IDs start with `grammar`
+* Factual Prose: sentence IDs start with `nonfiction`
+* Spoken (incl. conversations, oral folktales, and biographic monologue): sentence IDs start with `conversation`
 
 # Acknowledgments
 
