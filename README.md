@@ -21,10 +21,10 @@ Sentences from written texts and conversations were shuffled to anonymize the da
 
 # Genre Classification
 
+* Spoken (incl. conversations, oral folktales, and biographic monologue): sentence IDs start with `conversation`
 * Movie subtitles: sentence IDs start with `film`
 * Examples from the grammatical sketch: sentence IDs start with `grammar`
 * Factual Prose: sentence IDs start with `nonfiction`
-* Spoken (incl. conversations, oral folktales, and biographic monologue): sentence IDs start with `conversation`
 
 # Acknowledgments
 
