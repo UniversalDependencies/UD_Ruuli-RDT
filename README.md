@@ -61,7 +61,7 @@ UPOS: converted from manual
 XPOS: converted from manual
 Features: converted from manual
 Relations: manual native
-Contributors: Tulchynska, Kira; Witzlack, Alena; Veselovsky, Anna
+Contributors: Tulchynska, Kira; Veselovsky, Anna; Witzlack-Makarevich, Alena
 Contributing: here
 Contact: kira.tulchynska@mail.huji.ac.il
 ===============================================================================
