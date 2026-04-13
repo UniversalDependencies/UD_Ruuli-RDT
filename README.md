@@ -1,6 +1,6 @@
 # Summary
 
-UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (Ruuli) language. The annotation was converted from interlinear glossed text and manually supplemented with syntactic relations. The treebank includes texts from various sources: nonfiction, fiction, grammar examples, and spoken conversation. The treebank contains approximately 6,000 tokens.
+UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (Ruuli) language. The annotation was converted from interlinear glossed text and manually annotated for syntactic relations. The treebank includes texts from various sources: conversations, oral folktales, biographic monologue, movie subtitles, grammar examples, and factual prose. The treebank contains approximately 6,000 tokens.
 
 # Introduction
 
