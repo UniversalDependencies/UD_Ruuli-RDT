@@ -29,6 +29,9 @@ Sentences from written texts and conversations were shuffled.
 # Acknowledgments
 
 This work was supported by the project "Event Packaging in Language" (University of Zurich Global Strategy and Partnerships Funding Scheme, 2023–2026).
+
+Preparation of this dataset greatly benefited from the results of the project "A comprehensive bilingual talking Ruruuli/Lunyala-English dictionary" (funded by the Volkswagen Foundation, 2017–2020; PI Saudah Namyalo). 
+We acknowledge the contribution of Anatole Kiriggwajjo, Amos Atuhairwe, Zarina Molochieva, Ruth Gimbo Mukama, and Margaret Zellers.
    
 ## References
 
