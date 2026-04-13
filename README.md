@@ -12,7 +12,7 @@ The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into
 * conversation_Nakasongola2 (1544 words): Conversation between two females about socio-economic issues.  
 * conversation_Sokoso (373 words): A traditional oral folktale about a woman who mistreated her mother-in-law.  
 * film_Inception (470 words): An excerpt from the translated subtitles for the film *Inception* (2010)  
-* grammar_Syntax (937 words): Examples from Namyalo et al. (2021)  
+* grammar_Syntax (937 words): Examples from the grammar sketch of Ruuli (Namyalo et al. 2021)  
 * nonfiction_Aniinire (70 words): An excerpt from factual prose on the history and traditions of the language speakers.  
 
 All sentences were converted from interlinear glossed text into CoNLL-U format using a custom conversion script. The syntactic relations were subsequently manually annotated following the UD framework.
