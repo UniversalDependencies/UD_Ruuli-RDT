@@ -6,11 +6,11 @@ UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (
 
 The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into it by native speakers, and subsequently glossed and annotated. The included texts are:
 
-* conversation_Gweero (595 words): A traditional oral folktale about the cow who got in trouble with the lion and the hare who helped the cow  
-* conversation_Nakasongola1 (795 words): Biographic monologue on childhood years, schooling, work, and other life experiences 
-* conversation_Nakasongola1b (1224 words): Conversation between two speakers, a male and a female, about taking care of their elderly parents  
-* conversation_Nakasongola2 (1544 words): Conversation between two females about socio-economic issues  
-* conversation_Sokoso (373 words): A traditional oral folktale about a woman who mistreated her mother-in-law  
+* spokecnTale_Gweero (595 words): A traditional oral folktale about the cow who got in trouble with the lion and the hare who helped the cow  
+* spokecnBio_Nakasongola1 (795 words): Biographic monologue on childhood years, schooling, work, and other life experiences 
+* spokenConv_Nakasongola1b (1224 words): Conversation between two speakers, a male and a female, about taking care of their elderly parents  
+* spokenConv_Nakasongola2 (1544 words): Conversation between two females about socio-economic issues  
+* spokenTale_Sokoso (373 words): A traditional oral folktale about a woman who mistreated her mother-in-law  
 * film_Inception (470 words): An excerpt from the translated subtitles for the film *Inception* (2010)  
 * grammar_Syntax (937 words): Language examples from *A dictionary and grammatical sketch of Ruruuli-Lunyala* (Namyalo et al. 2021)  
 * nonfiction_Aniinire (70 words): An excerpt from factual prose on the history and traditions of the language speakers  
@@ -21,8 +21,8 @@ Sentences from written texts and conversations were shuffled to anonymize the da
 
 # Genre Classification
 
-* Spoken (incl. conversations, oral folktales, and biographic monologue): sentence IDs start with `conversation`
-* Movie subtitles: sentence IDs start with `film`
+* Spoken (incl. conversations, oral folktales, and biographic monologue): sentence IDs start with `spoken`
+* Fiction movie subtitles: sentence IDs start with `film`
 * Examples from the grammatical sketch: sentence IDs start with `grammar`
 * Factual Prose: sentence IDs start with `nonfiction`
 
