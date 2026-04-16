@@ -2622,7 +2622,7 @@
 4	okuswaga	swaga	VERB	_	Referent=Yes|VerbForm=Inf	3	xcomp	3:xcomp	Gloss=AUG-INF-look_for-FV|MSeg=o-ku-swag-a|SpacesAfter=\n
 5-6	n'okubuuliirya	_	_	_	_	_	_	_	_
 5	n'	na	CCONJ	COM	_	6	cc	6:cc	Gloss=and|MSeg=na
-6	okubuuliirya	buulya	VERB	_	Referent=Yes|VerbForm=Inf|Voice=Appl	4	conj	4:conj|3:xcomp	Gloss=AUG-INF-ask:APPL-FV|MSeg=o-ku-buuliiry-a
+6	okubuuliirya	buulya	VERB	_	Referent=Yes|VerbForm=Inf|Voice=Appl	4	conj	3:xcomp|4:conj	Gloss=AUG-INF-ask:APPL-FV|MSeg=o-ku-buuliiry-a
 7	ebintu	kintu	NOUN	_	NounClass=Bantu8|Referent=Yes	6	obj	6:obj	Gloss=AUG-8.thing|MSeg=e-bintu
 8	bya	a	PART	GEN	NounClass=Bantu8	9	case	9:case	Gloss=8.GEN|MSeg=bya
 9	Bunyala	Bunyala	PROPN	_	NounClass=Bantu14	7	nmod	7:nmod	Gloss=14.Bunyala|MSeg=Bunyala|SpaceAfter=No
@@ -2652,8 +2652,8 @@
 5	bwa	a	PART	GEN	NounClass=Bantu14	6	case	6:case	Gloss=14.GEN|MSeg=bwa
 6	kusiima	siima	VERB	_	VerbForm=Inf	4	acl	4:acl	Gloss=INF-appreciate-FV|MSeg=ku-siim-a
 7-8	nywena	_	_	_	_	_	_	_	_
-7	nywe	nywe	PRON	_	Number=Plur|Person=2|PronType=Prs	6	obj	6:obj	Gloss=2pl|MSeg=nywe|SpaceAfter=No
-8	na	na	PART	ADD.FOC	InfStruct=Foc	7	advmod:emph	7:advmod:emph	Gloss=ADD.FOC|MSeg=na|SpacesAfter=\n
+7	nywe	nywe	PRON	_	Number=Plur|Person=2|PronType=Prs	6	obj	6:obj	Gloss=2pl|MSeg=nywe
+8	na	na	PART	ADD.FOC	InfStruct=Foc	7	advmod:emph	7:advmod:emph	Gloss=ADD.FOC|MSeg=na
 9-10	nywena	_	_	_	_	_	_	_	_
 9	nywe	nywe	PRON	_	Number=Plur|Person=2|PronType=Prs	7	flat:redup	7:flat:redup	Gloss=2pl|MSeg=nywe
 10	na	na	PART	ADD.FOC	InfStruct=Foc	9	advmod:emph	9:advmod:emph	Gloss=ADD.FOC|MSeg=na
