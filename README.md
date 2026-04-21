@@ -35,9 +35,9 @@ We acknowledge the contribution of Anatole Kiriggwajjo, Amos Atuhairwe, Zarina M
    
 ## References
 
-* Namyalo, Saudah & Witzlack-Makarevich, Alena & Kiriggwajjo, Anatole & Atuhairwe, Amos & Molochieva, Zarina & Mukama, Ruth Gimbo & Zellers, Margaret. 2021. A dictionary and grammatical sketch of Ruruuli-Lunyala. Language Science Press. Language Science Press. (doi:10.5281/zenodo.5548947) (https://langsci-press.org/catalog/view/326/3386/2402-1) (Accessed December 12, 2024.)
 * Molochieva, Zarina, Saudah Namyalo & Alena Witzlack-Makarevich. 2021. Phasal Polarity in Ruuli (Bantu, JE.103). In The Expression of Phasal Polarity
 in African Languages. Raija Kramer (ed.). Berlin, Boston: De Gruyter Mouton. 73–92. (doi.org/doi:10.1515/9783110646290-005)
+* Namyalo, Saudah & Witzlack-Makarevich, Alena & Kiriggwajjo, Anatole & Atuhairwe, Amos & Molochieva, Zarina & Mukama, Ruth Gimbo & Zellers, Margaret. 2021. A dictionary and grammatical sketch of Ruruuli-Lunyala. Language Science Press. Language Science Press. (doi:10.5281/zenodo.5548947) (https://langsci-press.org/catalog/view/326/3386/2402-1) (Accessed December 12, 2024.)
 * Ruppert, Eloisa & Namyalo, Saudah & Witzlack-Makarevich, Alena. Forthcoming. Negation in Ruuli (JE.103). In Miestamo, Ljuba, Matti Veselinova (ed.), Negation in the world’s languages I: Africa. Berlin: Language Science Press.
 * Sørensen, Marie-Louise Lind & Witzlack-Makarevich, Alena. 2020. Clausal complementation in Ruuli (Bantu, JE103). Studies in African Linguistics 49(1). 85–110.
 (doi.org/10.32473/sal.v49i1.122264)
