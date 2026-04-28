@@ -1706,7 +1706,7 @@
 1	Omutoma	mutoma	NOUN	_	NounClass=Bantu3|Referent=Yes	3	obj:caus	3:obj:caus	_
 2	ogwo	o	DET	_	Deixis=Med|NounClass=Bantu3|PronType=Dem	1	det	1:det	_
 3	bagwombokesyanga	omboka	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu3|NounClass[obj]=Bantu2|Person=3|Person[obj]=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	0:root	_
-4	amayumba	nyumba	NOUN	_	NounClass=Bantu6|Referent=Yes	3	obj	3:obj	SpaceAfter=No
+4	amayumba	nyumba	NOUN	_	NounClass=Bantu6|Referent=Yes	3	iobj	3:iobj	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Syntax_36a
@@ -2065,11 +2065,11 @@
 # sent_id = grammar_Syntax_55c_1
 # text = Byonabyona biriga mu kiki?
 # english = All that come from what?
-1	Byonabyona	ona	PRON	_	NounClass=Bantu8|PronType=Tot|Red=Yes	3	nsubj	3:nsubj	_
+1	Byonabyona	ona	PRON	_	NounClass=Bantu8|PronType=Tot|Red=Yes	2	nsubj	2:nsubj	_
 2	biriga	liga	VERB	_	Mood=Ind|NounClass=Bantu8|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	mu	mu	ADP	LOC	NounClass=Bantu18	5	case	5:case	_
-4	kiki	ki	PRON	_	NounClass=Bantu7|PronType=Int	3	obl	3:obl	SpaceAfter=No
-5	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+3	mu	mu	ADP	LOC	NounClass=Bantu18	4	case	4:case	_
+4	kiki	ki	PRON	_	NounClass=Bantu7|PronType=Int	2	obl	2:obl	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = grammar_Syntax_55c_2
 # text = Mu nte.
