@@ -212,7 +212,7 @@
 6	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = film_Inception_30_31
-# text = Nje nkusobola okwingira omu ndowooza yamu nenkwiyamu ebyama byamu byona byona olwa nsonga nti maite obukodyo.
+# text = Nje nkusobola okwingira omu ndowooza yamu nenkwiyamu ebyama byamu byonabyona olwa nsonga nti maite obukodyo.
 # english = I know how to search your mind and find your secrets. I know the tricks.
 1	Nje	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Gloss=1sg|MSeg=nje
 2	nkusobola	sobola	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1sgS-PROG-be_able-FV|MSeg=n-ku-sobol-a
@@ -223,14 +223,13 @@
 7	nenkwiyamu	iyamu	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj	Gloss=NAR-1sgS-2sgO-extract:FV|MSeg=ni-n-ku-iyamu
 8	ebyama	kyama	NOUN	_	NounClass=Bantu8|Referent=Yes	7	obj	7:obj	Gloss=AUG-8.secret|MSeg=e-byama
 9	byamu	amu	PRON	ASSOC	NounClass=Bantu8|Number=Sing|Person[psed]=3|Person[psor]=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Gloss=8-2sgPOSS|MSeg=bi-amu
-10	byona	ona	DET	_	NounClass=Bantu8|PronType=Tot	8	det	8:det	Gloss=8-all|MSeg=bi-ona
-11	byona	ona	DET	_	NounClass=Bantu8|PronType=Tot	10	flat:redup	10:flat:redup	Gloss=8-all|MSeg=bi-ona
-12	olwa	a	PART	GEN	NounClass=Bantu11	13	case	13:case	Gloss=11.GEN|MSeg=olwa
-13	nsonga	nsonga	NOUN	_	NounClass=Bantu9	2	obl	2:obl	Gloss=9.reason|MSeg=nsonga
-14	nti	nti	SCONJ	COMPL	_	15	mark	15:mark	Gloss=COMPL|MSeg=nti
-15	maite	manya	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	13:ccomp	Gloss=1sgS-know:PFV|MSeg=n-maite
-16	obukodyo	kakodyo	NOUN	_	NounClass=Bantu14|Referent=Yes	15	obj	15:obj	Gloss=AUG-14.trick|MSeg=o-bukodyo|SpaceAfter=No
-17	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
+10	byonabyona	ona	DET	_	NounClass=Bantu8|PronType=Tot|Red=Yes	8	det	8:det	Gloss=8-all~8-all|MSeg=bi-ona~bi-ona
+11	olwa	a	PART	GEN	NounClass=Bantu11	12	case	12:case	Gloss=11.GEN|MSeg=olwa
+12	nsonga	nsonga	NOUN	_	NounClass=Bantu9	2	obl	2:obl	Gloss=9.reason|MSeg=nsonga
+13	nti	nti	SCONJ	COMPL	_	14	mark	14:mark	Gloss=COMPL|MSeg=nti
+14	maite	manya	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	Gloss=1sgS-know:PFV|MSeg=n-maite
+15	obukodyo	kakodyo	NOUN	_	NounClass=Bantu14|Referent=Yes	14	obj	14:obj	Gloss=AUG-14.trick|MSeg=o-bukodyo|SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = film_Inception_32
 # text = Era nga nkusobola okusomesya noba nga ndowo muntu yena akusobola okwingira omu ndowooza yamu n’obwiire nga obasirye.
@@ -1704,7 +1703,7 @@
 # sent_id = grammar_Syntax_35b
 # text = Omutoma ogwo bagwombokesyanga amayumba.
 # english = That bark cloth tree (Lat. emph{Ficus natalensis})  it is used it to build houses.
-1	Omutoma	mutoma	NOUN	_	NounClass=Bantu3|Referent=Yes	3	nsubj	3:nsubj	_
+1	Omutoma	mutoma	NOUN	_	NounClass=Bantu3|Referent=Yes	3	obj:caus	3:obj:caus	_
 2	ogwo	o	DET	_	Deixis=Med|NounClass=Bantu3|PronType=Dem	1	det	1:det	_
 3	bagwombokesyanga	omboka	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu3|NounClass[obj]=Bantu2|Person=3|Person[obj]=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	0:root	_
 4	amayumba	nyumba	NOUN	_	NounClass=Bantu6|Referent=Yes	3	obj	3:obj	SpaceAfter=No
@@ -2064,14 +2063,13 @@
 3	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = grammar_Syntax_55c_1
-# text = Byona byona biriga mu kiki?
+# text = Byonabyona biriga mu kiki?
 # english = All that come from what?
-1	Byona	ona	PRON	_	NounClass=Bantu8|PronType=Tot	3	nsubj	3:nsubj	_
-2	byona	ona	PRON	_	NounClass=Bantu8|PronType=Tot	1	flat:redup	1:flat:redup	_
-3	biriga	liga	VERB	_	Mood=Ind|NounClass=Bantu8|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	mu	mu	ADP	LOC	NounClass=Bantu18	5	case	5:case	_
-5	kiki	ki	PRON	_	NounClass=Bantu7|PronType=Int	3	obl	3:obl	SpaceAfter=No
-6	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+1	Byonabyona	ona	PRON	_	NounClass=Bantu8|PronType=Tot|Red=Yes	3	nsubj	3:nsubj	_
+2	biriga	liga	VERB	_	Mood=Ind|NounClass=Bantu8|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	mu	mu	ADP	LOC	NounClass=Bantu18	5	case	5:case	_
+4	kiki	ki	PRON	_	NounClass=Bantu7|PronType=Int	3	obl	3:obl	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Syntax_55c_2
 # text = Mu nte.
@@ -2643,7 +2641,7 @@
 10	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_6
-# text = Tukutaka era okwika obukwenda bwa kusiima nywena nywena abatujunireku oku mulumu gwa kusoroora, okurunguwa n'okuwandiika ebyafaayo bya Bunyala.
+# text = Tukutaka era okwika obukwenda bwa kusiima nywenanywena abatujunireku oku mulumu gwa kusoroora, okurunguwa n'okuwandiika ebyafaayo bya Bunyala.
 # english = We desire still we extend the message of thanking all people who have helped us in the work of gathering, to elabolate on and to write the history of Bunyala.
 1	Tukutaka	taka	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1plS-PROG-love-FV|MSeg=tu-ku-tak-a
 2	era	era	CCONJ	_	_	1	cc	1:cc	Gloss=and|MSeg=era
@@ -2651,28 +2649,25 @@
 4	obukwenda	bukwenda	NOUN	_	NounClass=Bantu14|Referent=Yes	3	obj	3:obj	Gloss=AUG-14.message|MSeg=o-bukwenda
 5	bwa	a	PART	GEN	NounClass=Bantu14	6	case	6:case	Gloss=14.GEN|MSeg=bwa
 6	kusiima	siima	VERB	_	VerbForm=Inf	4	acl	4:acl	Gloss=INF-appreciate-FV|MSeg=ku-siim-a
-7-8	nywena	_	_	_	_	_	_	_	_
-7	nywe	nywe	PRON	_	Number=Plur|Person=2|PronType=Prs	6	obj	6:obj	Gloss=2pl|MSeg=nywe
+7-8	nywenanywena	_	_	_	_	_	_	_	_
+7	nywenanywe	nywe	PRON	_	Number=Plur|Person=2|PronType=Prs|Red=Yes	6	obj	6:obj	Gloss=2pl~2pl|MSeg=nywena~nywe
 8	na	na	PART	ADD.FOC	InfStruct=Foc	7	advmod:emph	7:advmod:emph	Gloss=ADD.FOC|MSeg=na
-9-10	nywena	_	_	_	_	_	_	_	_
-9	nywe	nywe	PRON	_	Number=Plur|Person=2|PronType=Prs	7	flat:redup	7:flat:redup	Gloss=2pl|MSeg=nywe
-10	na	na	PART	ADD.FOC	InfStruct=Foc	9	advmod:emph	9:advmod:emph	Gloss=ADD.FOC|MSeg=na
-11-12	abatujunireku	_	_	_	_	_	_	_	_
-11	abatujunire	juna	VERB	REL	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Person[obj]=1|Referent=Yes|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	Gloss=S.REL-2S-1plO-help:PFV|MSeg=a-ba-tu-junire
-12	ku	ku	ADV	LOC	NounClass=Bantu17	11	advmod:loc	11:advmod:loc	Gloss=17.LOC|MSeg=ku
-13	oku	ku	ADP	LOC	NounClass=Bantu17|Referent=Yes	14	case	14:case	Gloss=AUG-17.LOC|MSeg=o-ku
-14	mulumu	mulumu	NOUN	_	NounClass=Bantu3	11	obl	11:obl	Gloss=3.job|MSeg=mulumu
-15	gwa	a	PART	GEN	NounClass=Bantu3	16	case	16:case	Gloss=3.GEN|MSeg=gwa
-16	kusoroora	kusoroora	NOUN	_	NounClass=Bantu15	14	nmod	14:nmod	Gloss=15.gazering|MSeg=kusoroora|SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	18:punct	SpacesAfter=\n
-18	okurunguwa	runguwa	NOUN	_	NounClass=Bantu15	16	conj	14:nmod|16:conj	Gloss=AUG-INF-sort-FV|MSeg=o-ku-runguw-a
-19-20	n'okuwandiika	_	_	_	_	_	_	_	_
-19	n'	na	CCONJ	COM	_	20	cc	20:cc	Gloss=COM|MSeg=na
-20	okuwandiika	wandiika	NOUN	_	NounClass=Bantu15	18	conj	16:conj|18:conj	Gloss=AUG-INF-write-FV|MSeg=o-ku-wandiik-a
-21	ebyafaayo	kyafaayo	NOUN	_	NounClass=Bantu8|Referent=Yes	20	obj	20:obj	Gloss=AUG-8.history|MSeg=e-byafaayo
-22	bya	a	PART	GEN	NounClass=Bantu8	23	case	23:case	Gloss=8.GEN|MSeg=bya
-23	Bunyala	Bunyala	PROPN	_	NounClass=Bantu14	21	nmod	21:nmod	Gloss=14.Bunyala|MSeg=Bunyala|SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
+9-10	abatujunireku	_	_	_	_	_	_	_	_
+9	abatujunire	juna	VERB	REL	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Person[obj]=1|Referent=Yes|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	Gloss=S.REL-2S-1plO-help:PFV|MSeg=a-ba-tu-junire
+10	ku	ku	ADV	LOC	NounClass=Bantu17	9	advmod:loc	9:advmod:loc	Gloss=17.LOC|MSeg=ku
+11	oku	ku	ADP	LOC	NounClass=Bantu17|Referent=Yes	12	case	12:case	Gloss=AUG-17.LOC|MSeg=o-ku
+12	mulumu	mulumu	NOUN	_	NounClass=Bantu3	9	obl	9:obl	Gloss=3.job|MSeg=mulumu
+13	gwa	a	PART	GEN	NounClass=Bantu3	14	case	14:case	Gloss=3.GEN|MSeg=gwa
+14	kusoroora	kusoroora	NOUN	_	NounClass=Bantu15	12	nmod	12:nmod	Gloss=15.gazering|MSeg=kusoroora|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	16:punct	SpacesAfter=\n
+16	okurunguwa	runguwa	NOUN	_	NounClass=Bantu15	14	conj	12:nmod|14:conj	Gloss=AUG-INF-sort-FV|MSeg=o-ku-runguw-a
+17-18	n'okuwandiika	_	_	_	_	_	_	_	_
+17	n'	na	CCONJ	COM	_	18	cc	18:cc	Gloss=COM|MSeg=na
+18	okuwandiika	wandiika	NOUN	_	NounClass=Bantu15	16	conj	14:conj|16:conj	Gloss=AUG-INF-write-FV|MSeg=o-ku-wandiik-a
+19	ebyafaayo	kyafaayo	NOUN	_	NounClass=Bantu8|Referent=Yes	18	obj	18:obj	Gloss=AUG-8.history|MSeg=e-byafaayo
+20	bya	a	PART	GEN	NounClass=Bantu8	21	case	21:case	Gloss=8.GEN|MSeg=bya
+21	Bunyala	Bunyala	PROPN	_	NounClass=Bantu14	19	nmod	19:nmod	Gloss=14.Bunyala|MSeg=Bunyala|SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_7
 # text = Gonze mubbe nga mukola bintu bya bantu baingi, okweiteja ebyasookere kyetaagibwa.
@@ -2931,15 +2926,14 @@
 14	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_23
-# text = Baitu ebyo byona byona bya ki?
+# text = Baitu ebyo byonabyona bya ki?
 # english = But all that for what?
-1	Baitu	baitu	CCONJ	_	_	6	cc	6:cc	Gloss=but|MSeg=baitu
-2	ebyo	o	PRON	_	Deixis=Med|NounClass=Bantu8|Person=3|PronType=Dem	6	nsubj	6:nsubj	Gloss=8.MED|MSeg=ebyo
-3	byona	ona	DET	_	NounClass=Bantu8|PronType=Tot	2	det	2:det	Gloss=8-all|MSeg=bi-ona
-4	byona	ona	DET	_	NounClass=Bantu8|PronType=Tot	3	flat:redup	3:flat:redup	Gloss=8-all|MSeg=bi-ona
-5	bya	a	PART	GEN	NounClass=Bantu8	6	case	6:case	Gloss=8.GEN|MSeg=bya
-6	ki	ki	PRON	_	PronType=Int	0	root	0:root	Gloss=what|MSeg=ki|SpaceAfter=No
-7	?	?	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
+1	Baitu	baitu	CCONJ	_	_	5	cc	5:cc	Gloss=but|MSeg=baitu
+2	ebyo	o	PRON	_	Deixis=Med|NounClass=Bantu8|Person=3|PronType=Dem	5	nsubj	5:nsubj	Gloss=8.MED|MSeg=ebyo
+3	byonabyona	ona	DET	_	NounClass=Bantu8|PronType=Tot|Red=Yes	2	det	2:det	Gloss=8-all~8-all|MSeg=bi-ona~bi-ona
+4	bya	a	PART	GEN	NounClass=Bantu8	5	case	5:case	Gloss=8.GEN|MSeg=bya
+5	ki	ki	PRON	_	PronType=Int	0	root	0:root	Gloss=what|MSeg=ki|SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_24
 # text = Atwekubbembera ali omwe, n'ekinga ya kwebukira ebba emwe.
@@ -2993,7 +2987,7 @@
 7	meeza	meeza	NOUN	_	NounClass=Bantu9	5	nmod	5:nmod	Gloss=9.table|MSeg=meeza|SpacesAfter=\n
 8	balemeerwe	lema	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	Gloss=2S-fail:PASS:PFV|MSeg=ba-lemeerwe
 9	okwemeerya	emeera	VERB	_	Referent=Yes|VerbForm=Inf|Voice=Cau	8	xcomp	8:xcomp	Gloss=AUG-INF-stand-CAUS-FV|MSeg=o-ku-emeer-y-a
-10	eiwuli	iwuli	NOUN	_	NounClass=Bantu5|Referent=Yes	9	obj	9:obj	Gloss=AUG-5.egg|MSeg=e-iwuli|SpaceAfter=No
+10	eiwuli	iwuli	NOUN	_	NounClass=Bantu5|Referent=Yes	9	obj:caus	9:obj:caus	Gloss=AUG-5.egg|MSeg=e-iwuli|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	8:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_28
@@ -6678,18 +6672,17 @@
 4	?	?	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola1b_125
-# text = Byona byona ebyo n'tubba nga tukukwatira amwei.
+# text = Byonabyona ebyo n'tubba nga tukukwatira amwei.
 # english = All that and we have been able to join hands.
-1	Byona	ona	DET	_	NounClass=Bantu8|PronType=Tot	3	det	3:det	Gloss=8-all|MSeg=bi-ona
-2	byona	ona	DET	_	NounClass=Bantu8|PronType=Tot	1	flat:redup	1:flat:redup	Gloss=8.MED|MSeg=ebyo
-3	ebyo	o	PRON	_	Deixis=Med|NounClass=Bantu8|Person=3|PronType=Dem	0	root	0:root	Gloss=8.MED|MSeg=ebyo
-4-5	n'tubba	_	_	_	_	_	_	_	_
-4	n'	na	CCONJ	COM	_	5	cc	5:cc	Gloss=COM|MSeg=na
-5	tubba	bba	VERB	COP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	3:conj	Gloss=1plS-COP|MSeg=tu-bba
-6	nga	nga	SCONJ	_	_	7	mark	7:mark	Gloss=while|MSeg=nga
-7	tukukwatira	kwata	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Appl	5	advcl	5:advcl	Gloss=1plS-PROG-hold-APPL-FV|MSeg=tu-ku-kwat-ir-a
-8	amwei	mwe	NUM	_	NumForm=Word|NumType=Card|Referent=Yes	7	obj	7:obj	Gloss=AUG-one|MSeg=a-mwei|SpaceAfter=No
-9	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+1	Byonabyona	ona	DET	_	NounClass=Bantu8|PronType=Tot	2	det	2:det	Gloss=8-all~8-all|MSeg=bi-ona~bi-ona
+2	ebyo	o	PRON	_	Deixis=Med|NounClass=Bantu8|Person=3|PronType=Dem	0	root	0:root	Gloss=8.MED|MSeg=ebyo
+3-4	n'tubba	_	_	_	_	_	_	_	_
+3	n'	na	CCONJ	COM	_	4	cc	4:cc	Gloss=COM|MSeg=na
+4	tubba	bba	VERB	COP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj	Gloss=1plS-COP|MSeg=tu-bba
+5	nga	nga	SCONJ	_	_	6	mark	6:mark	Gloss=while|MSeg=nga
+6	tukukwatira	kwata	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Appl	4	advcl	4:advcl	Gloss=1plS-PROG-hold-APPL-FV|MSeg=tu-ku-kwat-ir-a
+7	amwei	mwe	NUM	_	NumForm=Word|NumType=Card|Referent=Yes	6	obj	6:obj	Gloss=AUG-one|MSeg=a-mwei|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola1b_126
 # text = Naye ngate nka bwe omaite abaana aboojo
