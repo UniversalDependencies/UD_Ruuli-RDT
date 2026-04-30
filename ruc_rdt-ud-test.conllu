@@ -3767,7 +3767,7 @@
 # english = but I don’t eat.
 1-2	njete	_	_	_	_	_	_	_	_
 1	nje	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Gloss=1sg|MSeg=nje
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	tindya	lya	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=NEG-1sgS-eat-FV|MSeg=ti-n-ly-a|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
@@ -4212,7 +4212,7 @@
 # english = he went to do other things,
 1-2	nayabate	_	_	_	_	_	_	_	_
 1	nayaba	aba	VERB	_	Mood=Ind|NounClass=Bantu1|Person=3|Tense=Nar|VerbForm=Fin	0	root	0:root	Gloss=NAR-1S-go-FV|MSeg=ni-a-ab-a
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	4	case	4:case	Gloss=AUG-18.LOC|MSeg=o-mu
 4	bindi	ndi	PRON	_	NounClass=Bantu8|PronType=Ind	1	obl	1:obl	Gloss=8-other|MSeg=bi-ndi|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
@@ -5252,7 +5252,7 @@
 # english = There, I started returning back to school,
 1-2	Awote	_	_	_	_	_	_	_	_
 1	Awo	awo	ADV	_	Deixis=Med|NounClass=Bantu16|PronType=Dem	3	advmod	3:advmod	Gloss=16.MED|MSeg=awo
-2	te	te	PART	FOC	InfStruct=Foc	3	advmod:emph	3:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	3	advmod:emph	3:advmod:emph	Gloss=TOP|MSeg=te
 3	nintandika	tandika	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Nar|VerbForm=Fin	0	root	0:root	Gloss=NAR-1sgS-start-FV|MSeg=ni-n-tandik-a
 4	okwira	ira	VERB	_	Referent=Yes|VerbForm=Inf	3	xcomp	3:xcomp	Gloss=AUG-INF-return-FV|MSeg=o-ku-ir-a
 5	oku	ku	ADP	LOC	NounClass=Bantu17|Referent=Yes	6	case	6:case	Gloss=AUG-17.LOC|MSeg=o-ku
@@ -5268,7 +5268,7 @@
 3	okugezesebwa	gezesya	VERB	_	Referent=Yes|VerbForm=Inf|Voice=Pass	1	advcl	1:advcl	Gloss=AUG-INF-test-PASS-FV|MSeg=o-ku-gezesy-ebw-a
 4-5	ngate	_	_	_	_	_	_	_	_
 4	nga	nga	SCONJ	_	_	8	mark	8:mark	Gloss=while|MSeg=nga
-5	te	te	PART	FOC	InfStruct=Foc	4	advmod:emph	4:advmod:emph	Gloss=FOC|MSeg=te
+5	te	te	PART	TOP	InfStruct=Top	4	advmod:emph	4:advmod:emph	Gloss=TOP|MSeg=te
 6	eni	eni	ADV	_	Deixis=Prox|NounClass=Bantu23|PronType=Dem	8	advmod	8:advmod	Gloss=23.PROX|MSeg=eni
 7	nimwo	nimwo	INTJ	_	_	8	discourse	8:discourse	Gloss=indeed|MSeg=nimwo
 8	nkusoma	soma	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl	Gloss=1sgS-PROG-study-FV|MSeg=n-ku-som-a|SpaceAfter=No
@@ -5795,7 +5795,7 @@
 # english = For me at mums I love eating there so much
 1-3	njetembe	_	_	_	_	_	_	_	_
 1	nje	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Gloss=1sg|MSeg=nje
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	mbe	mbe	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=mbe
 4	owa	wo	ADP	LOC	NounClass=Bantu16|Referent=Yes	5	case	5:case	Gloss=AUG-16.LOC|MSeg=o-wa
 5	mukaire	mukaire	NOUN	_	NounClass=Bantu1	6	obl	6:obl	Gloss=1.elderly_person|MSeg=mukaire
@@ -5871,7 +5871,7 @@
 # english = What of you if you find there cassava a potato
 1-2	Wete	_	_	_	_	_	_	_	_
 1	We	we	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Gloss=2sg|MSeg=we
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3-5	n'osangayo	_	_	_	_	_	_	_	_
 3	n'	ni	SCONJ	_	_	4	mark	4:mark	Gloss=if|MSeg=ni
 4	osanga	sanga	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2sgS-find-FV|MSeg=o-sang-a
@@ -6055,7 +6055,7 @@
 # english = That is why you have taken it on yourself to produce girls.
 1-2	Wete	_	_	_	_	_	_	_	_
 1	We	we	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Gloss=2sg|MSeg=we
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	nikwo	ni	AUX	COP	InfStruct=Foc|NounClass=Bantu15|Person=3|Tense=Pres	4	cop	4:cop	Gloss=COP-15S|MSeg=ni-kwo
 4	okwefaaku	faakua	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	0:root	Gloss=2sgS-PROG-REFL-care_for|MSeg=o-ku-ee-faaku
 5	obyale	byala	VERB	_	Referent=Yes|VerbForm=Inf	4	xcomp	4:xcomp	Gloss=AUG-INF-give_birth-FV|MSeg=o-ku-byal-a
@@ -6213,7 +6213,7 @@
 # english = but more so the wife because
 1-2	nayete	_	_	_	_	_	_	_	_
 1	naye	naye	CCONJ	_	_	5	cc	5:cc	Gloss=but|MSeg=naye
-2	te	te	PART	FOC	InfStruct=Foc	5	advmod:emph	5:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	5	advmod:emph	5:advmod:emph	Gloss=TOP|MSeg=te
 3	okusinga	okusinga	ADV	_	_	5	advmod	5:advmod	Gloss=mostly|MSeg=okusinga
 4-5	n'omukyala	_	_	_	_	_	_	_	_
 4	n'	na	PART	ADD.FOC	InfStruct=Foc	5	advmod:emph	5:advmod:emph	Gloss=ADD.FOC|MSeg=na
@@ -6264,7 +6264,7 @@
 4-6	kawoomambete	_	_	_	_	_	_	_	SpaceAfter=No
 4	kawooma	wooma	VERB	_	Mood=Ind|NounClass=Bantu12|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=12S-have_good_taste-FV|MSeg=ka-woom-a
 5	mbe	mbe	PART	FOC	InfStruct=Foc	4	advmod:emph	4:advmod:emph	Gloss=FOC|MSeg=mbe
-6	te	te	PART	FOC	InfStruct=Foc	4	advmod:emph	4:advmod:emph	Gloss=FOC|MSeg=te
+6	te	te	PART	TOP	InfStruct=Top	4	advmod:emph	4:advmod:emph	Gloss=TOP|MSeg=te
 7	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola1b_79
@@ -6461,7 +6461,7 @@
 # english = But most important she is becoming weak
 1-2	Nayete	_	_	_	_	_	_	_	_
 1	Naye	naye	CCONJ	_	_	3	cc	3:cc	Gloss=but|MSeg=naye
-2	te	te	PART	FOC	InfStruct=Foc	3	advmod:emph	3:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	3	advmod:emph	3:advmod:emph	Gloss=TOP|MSeg=te
 3	ekikulu	kulu	ADJ	_	NounClass=Bantu7|Referent=Yes	0	root	0:root	Gloss=AUG-7-important|MSeg=e-ki-kulu
 4	amaani	maani	NOUN	_	NounClass=Bantu6|Referent=Yes	5	nsubj	5:nsubj	Gloss=AUG-6.strength|MSeg=a-maani
 5	gaabire	aba	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	3:csubj	Gloss=6S-go-PFV|MSeg=ga-ab-ire
@@ -6690,7 +6690,7 @@
 1	Naye	naye	CCONJ	_	_	6	cc	6:cc	Gloss=but|MSeg=naye
 2-3	ngate	_	_	_	_	_	_	_	_
 2	nga	nga	SCONJ	_	_	6	mark	6:mark	Gloss=while|MSeg=nga
-3	te	te	PART	FOC	InfStruct=Foc	2	advmod:emph	2:advmod:emph	Gloss=FOC|MSeg=te
+3	te	te	PART	TOP	InfStruct=Top	2	advmod:emph	2:advmod:emph	Gloss=TOP|MSeg=te
 4	nka	nka	ADP	_	_	6	mark	6:mark	Gloss=like|MSeg=nka
 5	bwe	bwe	SCONJ	_	_	6	mark	6:mark	Gloss=as|MSeg=bwe
 6	omaite	manya	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2sgS-know:PFV|MSeg=o-maite
@@ -6838,7 +6838,7 @@
 # english = And if I spend some time without going there she says "that is why I married to a nearer place [Note: It should be nasumbiriirwe instead of nafumbiriirwe in Ruruuli].
 1-2	erate	_	_	_	_	_	_	_	_
 1	era	era	CCONJ	_	_	5	cc	5:cc	Gloss=and|MSeg=era
-2	te	te	PART	FOC	InfStruct=Foc	5	advmod:emph	5:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	5	advmod:emph	5:advmod:emph	Gloss=TOP|MSeg=te
 3	ni	ni	SCONJ	_	_	5	mark	5:mark	Gloss=if|MSeg=ni
 4	mba	bba	AUX	_	Number=Sing|Person=1|Tense=Pres	5	aux	5:aux	Gloss=1sgS-AUX|MSeg=n-bba
 5	ndwire	lwa	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl	Gloss=1sgS-take_long-PFV|MSeg=n-lw-ire
@@ -6885,7 +6885,7 @@
 # english = And even when I bring that millet flour for his son-in-law
 1-2	erate	_	_	_	_	_	_	_	_
 1	era	era	CCONJ	_	_	8	cc	8:cc	Gloss=and|MSeg=era
-2	te	te	PART	FOC	InfStruct=Foc	8	advmod:emph	8:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=Top	8	advmod:emph	8:advmod:emph	Gloss=TOP|MSeg=te
 3-4	n’omukoi	_	_	_	_	_	_	_	_
 3	n’	ni	SCONJ	_	_	8	mark	8:mark	Gloss=when|MSeg=ni
 4	omukoi	mukoi	NOUN	_	NounClass=Bantu1|Referent=Yes	8	iobj:appl	8:iobj:appl	Gloss=AUG-1.in_law|MSeg=o-mukoi
@@ -7156,7 +7156,7 @@
 3	onyibyala	nyibyala	NOUN	_	NounClass=Bantu1|Referent=Yes	1	parataxis	1:parataxis|6:nsubj	Gloss=AUG-1.mother_in_law|MSeg=o-nyibyala
 4-5	wangete	_	_	_	_	_	_	_	_
 4	wange	ange	PRON	ASSOC	NounClass=Bantu1|Number=Sing|Person[psed]=3|Person[psor]=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Gloss=1-1sgPOSS|MSeg=wa-ange
-5	te	te	PART	FOC	InfStruct=Foc	4	advmod:emph	4:advmod:emph	Gloss=FOC|MSeg=te
+5	te	te	PART	TOP	InfStruct=TOP	4	advmod:emph	4:advmod:emph	Gloss=TOP|MSeg=te
 6	akumbyara	byara	VERB	REL	Aspect=Prog|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Person[obj]=1|Referent=Yes|Tense=Pres|VerbForm=Fin|Voice=Appl	3	acl:relcl	3:acl:relcl	Gloss=S.REL-PROG-1sgO-give_birth:APPL-FV|MSeg=a-ku-n-byar-a
 7	omukyala	mukyala	NOUN	_	NounClass=Bantu1|Referent=Yes	6	obj	6:obj	Gloss=AUG-1.wife|MSeg=o-mukyala|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
@@ -7167,7 +7167,7 @@
 1-3	yeenate	_	_	_	_	_	_	_	_
 1	yee	ye	PRON	_	NounClass=Bantu1|Person=3|PronType=Prs	5	obj	5:obj	Gloss=1|MSeg=ye
 2	na	na	PART	ADD.FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=ADD.FOC|MSeg=na
-3	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+3	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 4	ndina	lina	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1sgS-have-FV|MSeg=n-lin-a
 5	okumwendya	endya	VERB	_	NounClass=Bantu1|Person=3|Referent=Yes|VerbForm=Inf	4	xcomp	4:xcomp	Gloss=AUG-INF-1O-want-FV|MSeg=o-ku-mu-endy-a|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
@@ -7251,7 +7251,7 @@
 # english = As for me I'm done (with having more children)
 1-2	Njete	_	_	_	_	_	_	_	_
 1	Nje	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Gloss=1sg|MSeg=nje
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	mmaare	mala	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1sgS-finish:PFV|MSeg=n-maare|SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola1b_192
@@ -7583,7 +7583,7 @@
 # english = Or as they say “where you are born from is not where you grow from.” (a proverb)
 1-2	Obate	_	_	_	_	_	_	_	_
 1	Oba	oba	CCONJ	_	_	3	cc	3:cc	Gloss=or|MSeg=oba
-2	te	te	PART	FOC	InfStruct=Foc	3	advmod:emph	3:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	3	advmod:emph	3:advmod:emph	Gloss=TOP|MSeg=te
 3	bakoba	koba	VERB	_	Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2S-say-FV|MSeg=ba-kob-a
 4	obubyaaliro	bubyaaliro	NOUN	_	NounClass=Bantu14|Referent=Yes	6	nsubj	6:nsubj	Gloss=AUG-14.place_of_birth|MSeg=o-bubyaaliro
 5	tinibwo	ni	AUX	COP	InfStruct=Foc|NounClass=Bantu3|Person=3|Tense=Pres	6	cop	6:cop	Gloss=NEG-COP-14S|MSeg=ti-ni-bwo
@@ -7975,7 +7975,7 @@
 1	Mmh	mmh	INTJ	_	_	5	discourse	5:discourse	Gloss=INTERJ|MSeg=mmh
 2-3	wete	_	_	_	_	_	_	_	_
 2	we	we	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Gloss=2sg|MSeg=we
-3	te	te	PART	FOC	InfStruct=Foc	2	advmod:emph	2:advmod:emph	Gloss=FOC|MSeg=te
+3	te	te	PART	TOP	InfStruct=TOP	2	advmod:emph	2:advmod:emph	Gloss=TOP|MSeg=te
 4	abaamu	amu	PRON	ASSOC	NounClass=Bantu2|Number=Sing|Person[psed]=3|Person[psor]=2|Poss=Yes|PronType=Prs|Referent=Yes	5	obj	5:obj	Gloss=AUG-2-2sgPOSS|MSeg=a-ba-amu
 5	obakola	kola	VERB	_	Mood=Ind|NounClass=Bantu2|Number=Sing|Person=2|Person[obj]=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2sgS-2O-do-FV|MSeg=o-ba-kol-a
 6	otyai	tyai	ADV	_	Number=Sing|Person=2|PronType=Int	5	advmod	5:advmod	Gloss=2sg-how|MSeg=o-tyai|SpaceAfter=No
@@ -8352,7 +8352,7 @@
 # english = There is then no development.
 1-2	Enkulaakulanate	_	_	_	_	_	_	_	_
 1	Enkulaakulana	nkulaakulana	NOUN	_	NounClass=Bantu9|Referent=Yes	3	nsubj	3:nsubj	Gloss=AUG-9.development|MSeg=e-nkulaakulana
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3-4	netabbaawo	_	_	_	_	_	_	_	SpaceAfter=No
 3	netabbaa	bba	VERB	COP	Mood=Ind|NounClass=Bantu9|Person=3|Polarity=Neg|Tense=Nar|VerbForm=Fin	0	root	0:root	Gloss=NAR-9S-NEG-COP|MSeg=ni-e-ti-bba
 4	wo	wo	ADV	LOC	NounClass=Bantu16	3	advmod:loc	3:advmod:loc	Gloss=16.LOC|MSeg=wo
@@ -8415,7 +8415,7 @@
 # english = What then is the cause of famine?
 1-2	Enzalete	_	_	_	_	_	_	_	_
 1	Enzale	nzala	NOUN	_	NounClass=Bantu9|Referent=Yes	3	nsubj	3:nsubj	Gloss=AUG-9.hunger|MSeg=e-nzala
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	ekuluga	luga	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu9|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=9S-PROG-originate_from|MSeg=e-ku-luga
 4	ku	ku	ADP	LOC	NounClass=Bantu17	5	case	5:case	Gloss=17.LOC|MSeg=ku
 5	kiki	kiki	PRON	_	PronType=Int	3	obl	3:obl	Gloss=what|MSeg=kiki|SpaceAfter=No
@@ -8731,7 +8731,7 @@
 1	Ongubbe	ngubbe	NOUN	_	NounClass=Bantu1|Referent=Yes	2	nsubj	2:nsubj	Gloss=AUG-1.maize_stalk_borer|MSeg=o-ngubbe
 2-3	abuliirete	_	_	_	_	_	_	_	SpaceAfter=No
 2	abuliire	lya	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu1|NounClass[obj]=Bantu14|Person=3|Person[obj]=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1S-14O-eat-PFV|MSeg=a-bu-ly-ire
-3	te	te	PART	FOC	InfStruct=Foc	2	advmod:emph	2:advmod:emph	Gloss=FOC|MSeg=te
+3	te	te	PART	TOP	InfStruct=TOP	2	advmod:emph	2:advmod:emph	Gloss=TOP|MSeg=te
 4	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola2_72
@@ -8876,7 +8876,7 @@
 1-3	Njembete	_	_	_	_	_	_	_	SpaceAfter=No
 1	Nje	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	0:root	Gloss=1sg|MSeg=nje
 2	mbe	mbe	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=mbe
-3	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+3	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 4	…	…	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola2_88
@@ -8962,7 +8962,7 @@
 # english = And let me tell you,
 1-2	Atete	_	_	_	_	_	_	_	_
 1	Ate	ate	CCONJ	_	_	3	cc	3:cc	Gloss=and|MSeg=ate
-2	te	te	PART	FOC	InfStruct=Foc	3	advmod:emph	3:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	3	advmod:emph	3:advmod:emph	Gloss=TOP|MSeg=te
 3	leka	leka	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Gloss=let-FV|MSeg=lek-a
 4	nkukobere	koba	VERB	_	Mood=Sub|Number=Sing|Number[obj]=Sing|Person=1|Person[obj]=2|VerbForm=Fin|Voice=Appl	3	ccomp	3:ccomp	Gloss=1sgS-2sgO-say-APPL-SBJV|MSeg=n-ku-kob-er-e|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
@@ -9197,7 +9197,7 @@
 # english = You don't like it instead.
 1-2	Tokitakate	_	_	_	_	_	_	_	SpaceAfter=No
 1	Tokitaka	taka	VERB	_	Mood=Ind|NounClass=Bantu7|Number=Sing|Person=2|Person[obj]=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=NEG-2sgS-7O-like-FV|MSeg=ti-o-ki-tak-a
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = spokenConv_Nakasongola2_125
@@ -9299,7 +9299,7 @@
 7	naye	naye	CCONJ	_	_	10	cc	10:cc	Gloss=but|MSeg=naye
 8-9	akaitate	_	_	_	_	_	_	_	_
 8	akaita	kaita	NOUN	_	NounClass=Bantu12|Referent=Yes	10	obl	10:obl	Gloss=AUG-12.millet|MSeg=a-kaita
-9	te	te	PART	FOC	InfStruct=Foc	8	advmod:emph	8:advmod:emph	Gloss=FOC|MSeg=te
+9	te	te	PART	TOP	InfStruct=TOP	8	advmod:emph	8:advmod:emph	Gloss=TOP|MSeg=te
 10	tiwagule	gula	VERB	_	Mood=Sub|Number=Sing|Person=2|Polarity=Neg|Tense=Fut|VerbForm=Fin	2	conj	2:conj	Gloss=NEG-2sgS-FUT-buy-SBJV|MSeg=ti-o-a-gul-e|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	12:punct	_
 12	wasiga	siga	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	10	conj	10:conj	Gloss=2sgS-FUT-sow-FV|MSeg=o-a-sig-a|SpaceAfter=No
@@ -9510,7 +9510,7 @@
 # english = And with theft should we blame one who steals, whom should we blame?
 1-2	Atite	_	_	_	_	_	_	_	_
 1	Ati	ati	ADV	_	_	4	advmod	4:advmod	Gloss=now|MSeg=ati
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3-4	n'akwibba	_	_	_	_	_	_	_	_
 3	n'	na	ADP	COM	_	4	case	4:case	Gloss=COM|MSeg=na
 4	akwibba	ibba	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu1|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl	Gloss=1S-PROG-steal-FV|MSeg=a-ku-ibb-a
@@ -10183,7 +10183,7 @@
 # english = For you are only minding about fish…
 1-2	Wete	_	_	_	_	_	_	_	_
 1	We	we	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Gloss=2sg|MSeg=we
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	okyaloleera	loleera	VERB	_	Aspect=Pers|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2sgS-PERS-take.care.of-FV|MSeg=o-kya-loleer-a
 4	ncwi	ncwi	NOUN	_	NounClass=Bantu10	3	obj	3:obj	Gloss=10.fish|MSeg=ncwi|SpaceAfter=No
 5	…	…	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
@@ -10309,7 +10309,7 @@
 # english = We've then turned iinto the lake
 1-2	Twingiriirete	_	_	_	_	_	_	_	_
 1	Twingiriire	ingiriira	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1plS-attack:PFV|MSeg=tu-ingiriire
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	ennyanja	nnyanja	NOUN	_	NounClass=Bantu9|Referent=Yes	1	obl	1:obl	Gloss=AUG-9.lake|MSeg=e-nnyanja|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
@@ -10327,7 +10327,7 @@
 # english = And we deplete it.
 1-2	Atete	_	_	_	_	_	_	_	_
 1	Ate	ate	CCONJ	_	_	3	cc	3:cc	Gloss=and|MSeg=ate
-2	te	te	PART	FOC	InfStruct=Foc	3	advmod:emph	3:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	3	advmod:emph	3:advmod:emph	Gloss=TOP|MSeg=te
 3	tukujoowanga	owa	VERB	_	Aspect=Prog|Aspect[add]=Hab|Mood=Ind|NounClass=Bantu9|Number=Plur|Person=1|Person[obj]=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=1plS-PROG-9O-empty-HAB-FV|MSeg=tu-ku-gi-ow-ang-a|SpaceAfter=No
 4	…	…	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
@@ -10430,7 +10430,7 @@
 # english = And what I discovered from it,
 1-2	Njete	_	_	_	_	_	_	_	_
 1	Nje	nje	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Gloss=1sg|MSeg=nje
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	kye	e	PRON	_	NounClass=Bantu7|PronType=Rel	0	root	0:root|4:obj	Gloss=7.REL|MSeg=kye
 4-5	nazwiremu	_	_	_	_	_	_	_	SpaceAfter=No
 4	nazwire	zuula	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Gloss=1sgS-PST-find:PFV|MSeg=n-a-zwire
@@ -10550,7 +10550,7 @@
 # english = the rumour is about what?
 1-2	Olukobwete	_	_	_	_	_	_	_	_
 1	Olukobwe	lukobwe	NOUN	_	NounClass=Bantu11|Referent=Yes	0	root	0:root	Gloss=AUG-11.rumour|MSeg=o-lukobwe
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	lwaki	lwaki	ADV	_	PronType=Int	1	advmod	1:advmod	Gloss=why|MSeg=lwaki|SpaceAfter=No
 4	?	?	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
@@ -10703,7 +10703,7 @@
 2	ni	ni	SCONJ	_	_	3	mark	3:mark	Gloss=if|MSeg=ni
 3-4	wamuseengulate	_	_	_	_	_	_	_	SpacesAfter=\n
 3	wamuseengula	seengula	VERB	_	Mood=Ind|NounClass=Bantu1|Number=Sing|Person=2|Person[obj]=3|Tense=Fut|VerbForm=Fin	0	root	0:root	Gloss=2sgS-FUT-1O-displace-FV|MSeg=o-a-mu-seengul-a
-4	te	te	PART	FOC	InfStruct=Foc	3	advmod:emph	3:advmod:emph	Gloss=FOC|MSeg=te
+4	te	te	PART	TOP	InfStruct=TOP	3	advmod:emph	3:advmod:emph	Gloss=TOP|MSeg=te
 
 # sent_id = spokenConv_Nakasongola2_289
 # text = nga gadi galiyo n'eitakali liriyo!
@@ -10991,7 +10991,7 @@
 # english = Why then has the lake been regulated?
 1-2	Lwakite	_	_	_	_	_	_	_	_
 1	Lwaki	Lwaki	ADV	_	PronType=Int	5	advmod	5:advmod	Gloss=why|MSeg=lwaki
-2	te	te	PART	FOC	InfStruct=Foc	1	advmod:emph	1:advmod:emph	Gloss=FOC|MSeg=te
+2	te	te	PART	TOP	InfStruct=TOP	1	advmod:emph	1:advmod:emph	Gloss=TOP|MSeg=te
 3	awo	awo	ADV	_	Deixis=Med|NounClass=Bantu16|PronType=Dem	5	advmod	5:advmod	Gloss=16.MED|MSeg=awo
 4	ennyanja	nnyanja	NOUN	_	NounClass=Bantu9|Referent=Yes	5	obj	5:obj	Gloss=AUG-9.lake|MSeg=e-nnyanja
 5	bagikingire	kinga	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu2|NounClass[obj]=Bantu9|Person=3|Person[obj]=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2S-9O-close-PFV|MSeg=ba-gi-king-ire|SpaceAfter=No
