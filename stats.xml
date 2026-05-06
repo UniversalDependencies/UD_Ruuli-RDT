@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1234</sentences><tokens>5860</tokens><words>6301</words><fused>425</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1234</sentences><tokens>5860</tokens><words>6301</words><fused>425</fused></test>
+  </size>
+  <lemmas unique="1111" /><!-- ., ,, ni, mu, na, ?, a, ku, li, bba, aba, nga, koba, …, yo -->
+  <forms unique="2308" /><!-- ., ,, ?, n', mu, ku, nga, …, na, omu, yo, ni, ", wo, nti -->
+  <fusions unique="349" /><!-- yeena, njeena, ndoowo, njena, waliwo, weena, wete, mulimu, n'abaana, n'aliga, ndooyo, njete, nkukobereku, yoona, Atete -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">100</tag><!-- sai, ingi, kooto, kulu, tuufu, bbi, andi, kaire, angu, bbisi -->
+    <tag name="ADP">228</tag><!-- mu, ku, na, nka, e, olwa, okwiyaku, wa, paka, kuliga -->
+    <tag name="ADV">558</tag><!-- yo, ku, wo, mu, muno, awo, ati, tyai, atibuni, ani -->
+    <tag name="AUX">205</tag><!-- li, ni, bba, ta, aba, iza -->
+    <tag name="CCONJ">157</tag><!-- naye, era, na, oba, ate, baitu, nayenga, yete, ye, wabula -->
+    <tag name="DET">100</tag><!-- o, ni, di, ndi, ona, buli, mekai, mwe, ingai, ki -->
+    <tag name="INTJ">117</tag><!-- nimwo, eeh, mmh, bbe, okay, bambi, kale, hmm, iih, iye -->
+    <tag name="NOUN">1108</tag><!-- mwana, mukali, muntu, musaiza, mukaire, ntale, kintu, maama, nzala, mwaka -->
+    <tag name="NUM">52</tag><!-- mwe, ibiri, mukaaga, musanju, biri, ikumi, inai, kanai, kataanu, kyendai -->
+    <tag name="PART">261</tag><!-- a, na, te, mbe, ka, e -->
+    <tag name="PRON">397</tag><!-- e, ange, nje, ki, ye, we, o, amu, amwe, kiki -->
+    <tag name="PROPN">96</tag><!-- Kampala, Nakasongola, Namwera, Bunyala, DISO, Saito, Uganda, munankore, Buduuli, Buganda -->
+    <tag name="PUNCT">1255</tag><!-- ., ,, ?, …, ", !, ”, “, ..., ; -->
+    <tag name="SCONJ">236</tag><!-- nga, ni, nti, kubanga, anti, okwikya, olwakubba, bwe, olwa, gonze -->
+    <tag name="VERB">1429</tag><!-- aba, bba, koba, kola, endya, lya, manya, bona, iza, lina -->
+    <tag name="X">2</tag><!-- I, mean -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="101">
+    <feat name="Abbr" value="Yes" upos="PROPN">5</feat><!-- oDISO, NADFA, ODISO, oNADFA -->
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">59</feat><!-- byabbanga, nanyegesyanga, nayendyanga, okwabanga, yakolanga, Kyawoomanga, Tibazizwalanga, Timwakalanga, Timwalyanga, Toyabanga -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">330</feat><!-- ayabire, mbaire, omaite, abbaire, ankoore, babbaire, batandikire, oboine, Nalekere, Yayabire -->
+    <feat name="Aspect" value="Pers" upos="AUX,VERB">17</feat><!-- gakyali, akyali, bakyali, bakyalina, bakyekoora, bukyali, gukyaali, nkyabendya, okyabaza, okyali -->
+    <feat name="Aspect" value="Prog" upos="AUX,VERB">207</feat><!-- nkwendya, nkwaba, okubona, okumanya, tukwaba, Kikuboneka, Okukola, akwaba, akwema, nkusobola -->
+    <feat name="Aspect[add]" value="Hab" upos="VERB">8</feat><!-- abakukobanga, akukobanga, akwizanga, bakuzwalanga, bakwabanga, bakwesiganga, nkulugiraanga, tukujoowanga -->
+    <feat name="Deixis" value="Med" upos="ADV,DET,PRON">105</feat><!-- awo, ekyo, ebyo, eyo, oyo, abo, ako, ago, ezo, obwo -->
+    <feat name="Deixis" value="Prox" upos="ADV,DET,PRON">72</feat><!-- ani, eni, bini, kini, ganu, zini, luni, gani, gini, kani -->
+    <feat name="Deixis" value="Remt" upos="ADV,DET,PRON">16</feat><!-- edi, odi, badi, bidi, aludi, budi, gadi, kadi -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">2</feat><!-- ate -->
+    <feat name="Foreign" value="Yes" upos="X">2</feat><!-- I, mean -->
+    <feat name="Hort" value="Yes" upos="PART">6</feat><!-- ka -->
+    <feat name="InfStruct" value="Foc" upos="AUX,PART">140</feat><!-- na, mbe, n', nigyo, niye, n’, nikwo, nikyo, nilwo, niwo -->
+    <feat name="InfStruct" value="Top" upos="PART">33</feat><!-- te -->
+    <feat name="Mood" value="Imp" upos="VERB">39</feat><!-- leka, kola, Iza, Linda, Yaba, siika, Bona, Cwa, Ira, Kubba -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">1083</feat><!-- nakoba, nkwendya, tulina, namukoba, ayabire, okubona, alina, nayaba, okumanya, omaite -->
+    <feat name="Mood" value="Sub" upos="VERB">103</feat><!-- nkukobere, Mulabule, nkubuulye, Mwesambe, Weebale, mubireke, muwerye, nkole, tiwagule, tunenye -->
+    <feat name="NounClass" value="Bantu1" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">949</feat><!-- omukali, omwana, wange, nakoba, yee, ontale, wa, omusaiza, musaiza, omaama -->
+    <feat name="NounClass" value="Bantu10" upos="ADJ,AUX,DET,NOUN,PART,PRON,VERB">69</feat><!-- eza, zini, enaku, eengoye, encwi, ensonga, entalo, ente, esaawa, ezindi -->
+    <feat name="NounClass" value="Bantu11" upos="ADJ,AUX,DET,NOUN,PART,PRON,PROPN,VERB">69</feat><!-- olutalo, lukalu, lwa, nilwo, luni, lutalo, lwenyini, oRuruuli, olugendo, olugoye -->
+    <feat name="NounClass" value="Bantu12" upos="ADJ,AUX,DET,NOUN,PART,PRON,VERB">68</feat><!-- ako, akamere, nkaita, akaita, akantu, akasana, akaseente, akayumba, ka, kaita -->
+    <feat name="NounClass" value="Bantu13" upos="NOUN">2</feat><!-- otwani, tulo -->
+    <feat name="NounClass" value="Bantu14" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">122</feat><!-- bwa, obuto, buzibu, bwomi, obunage, obwiire, Buduuli, Buganda, Bunyala, bukuure -->
+    <feat name="NounClass" value="Bantu15" upos="AUX,NOUN,PART,PRON,VERB">29</feat><!-- kwa, nikwo, akukulia, kubandula, kubyalibwa, kukobeire, kukuuma, kuleetere, kulibatoola, kusoroora -->
+    <feat name="NounClass" value="Bantu16" upos="ADP,ADV,AUX,PART,PRON,VERB">126</feat><!-- wo, awo, ani, wali, we, niwo, owa, wa, ewaiswe, waiswe -->
+    <feat name="NounClass" value="Bantu17" upos="ADP,ADV,AUX,DET,VERB">123</feat><!-- ku, oku, kuli, kuni, luni, okwemereire, okwo -->
+    <feat name="NounClass" value="Bantu18" upos="ADP,ADV,AUX">151</feat><!-- mu, omu, muli, mulu, Omwo, muni, nimwo -->
+    <feat name="NounClass" value="Bantu2" upos="ADJ,ADV,AUX,DET,NOUN,PART,PRON,PROPN,VERB">343</feat><!-- abantu, abaana, ba, abakaire, abo, aba, abandi, bange, bantu, batyai -->
+    <feat name="NounClass" value="Bantu23" upos="ADP,ADV,AUX,PRON">109</feat><!-- yo, eyo, eni, nigyo, e, gye, yoo, edi, gy', je -->
+    <feat name="NounClass" value="Bantu3" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">141</feat><!-- gwa, Omusaale, mukago, mwaka, gukooto, muceere, mutwe, omusaayi, omwaka, gwange -->
+    <feat name="NounClass" value="Bantu4" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,VERB">44</feat><!-- emyaka, emitumbi, genkainenkaine, emirimu, emisaale, miringo, misinde, Emyka, buwangwa, egikiire -->
+    <feat name="NounClass" value="Bantu5" upos="ADJ,AUX,DET,NOUN,PART,PRON,VERB">38</feat><!-- isomero, lya, eitakali, eiwuli, isana, itakali, eibara, eidaala, eiraka, eisana -->
+    <feat name="NounClass" value="Bantu6" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,VERB">103</feat><!-- amaani, maiso, ga, maani, amaizi, ganu, maizi, gange, masomero, ago -->
+    <feat name="NounClass" value="Bantu7" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,VERB">226</feat><!-- ekyo, kisai, kye, ky', kibira, kini, ekintu, kiba, ekiri, ekya -->
+    <feat name="NounClass" value="Bantu8" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,VERB">203</feat><!-- bya, ebyo, ebintu, bini, ebyafaayo, bingi, ebiyaata, biro, bye, byonabyona -->
+    <feat name="NounClass" value="Bantu9" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">269</feat><!-- ya, ennyanja, enzala, nzala, nnyanja, eka, emere, engeri, gye, ngeri -->
+    <feat name="NounClass[iobj]" value="Bantu2" upos="VERB">1</feat><!-- kulibatoola -->
+    <feat name="NounClass[obj]" value="Bantu1" upos="VERB">40</feat><!-- namukoba, amufaaku, yamukubbiire, Amugobere, Amusamire, Amwirukirye, Baamubbwere, Namumbyaara, Yamukubbire, amubwirye -->
+    <feat name="NounClass[obj]" value="Bantu10" upos="VERB">6</feat><!-- Nibazikola, Nibazirya, Tibazizwalanga, bazigula, gazonka, nibaziteeka -->
+    <feat name="NounClass[obj]" value="Bantu12" upos="VERB">14</feat><!-- akaita, balikalya, akaakalya, akakoba, akukalya, baakalya, bakatuweire, balikakolesya, nakasyoma, natakakomba -->
+    <feat name="NounClass[obj]" value="Bantu14" upos="VERB">3</feat><!-- abuliire, babugulaa, bakubumala -->
+    <feat name="NounClass[obj]" value="Bantu2" upos="VERB">10</feat><!-- Babakubbire, abakoore, abakumire, abasalibwe, bagwombokesyanga, ekyabasoboleserye, eyabatumire, nikibaluma, yabairemu, yabaweire -->
+    <feat name="NounClass[obj]" value="Bantu3" upos="VERB">2</feat><!-- agutaire, agutoonya -->
+    <feat name="NounClass[obj]" value="Bantu5" upos="VERB">3</feat><!-- balisendere, kulibatoola, nalikoona -->
+    <feat name="NounClass[obj]" value="Bantu6" upos="VERB">8</feat><!-- Bagagula, Bagabiika, Bagalongoosere, Bagaluma, Bagalumaa, bagakola, yagataire -->
+    <feat name="NounClass[obj]" value="Bantu7" upos="VERB">6</feat><!-- Natakisanga, akimaite, bakikoore, tekikigaana, yakimanyiriire, yakitegeire -->
+    <feat name="NounClass[obj]" value="Bantu9" upos="VERB">5</feat><!-- Nebajirabiira, Tagitwala, bagikinge, bagikingire, bajikingire -->
+    <feat name="NounClass[psed]" value="Bantu1" upos="PRON">17</feat><!-- wamwei, waamwe, wamwe, waamwei, Owaamwei, ewaabwe, waako -->
+    <feat name="NounClass[psed]" value="Bantu14" upos="PRON">1</feat><!-- bwamwe -->
+    <feat name="NounClass[psed]" value="Bantu2" upos="PRON">6</feat><!-- baabwe, bamwe, abaabwe -->
+    <feat name="NounClass[psed]" value="Bantu4" upos="PRON">1</feat><!-- gyamwe -->
+    <feat name="NounClass[psed]" value="Bantu5" upos="PRON">1</feat><!-- lyamwe -->
+    <feat name="NounClass[psed]" value="Bantu7" upos="PRON">1</feat><!-- kyamwei -->
+    <feat name="NounClass[psed]" value="Bantu9" upos="PRON">2</feat><!-- yaabwe, yamwe -->
+    <feat name="NounClass[psor]" value="Bantu1" upos="NOUN,PRON">24</feat><!-- wamwei, waamwe, wamwe, bamwe, waamwei, Owaamwei, bwamwe, gyamwe, kyamwei, lyamwe -->
+    <feat name="NounClass[psor]" value="Bantu12" upos="PRON">1</feat><!-- waako -->
+    <feat name="NounClass[psor]" value="Bantu2" upos="PRON">6</feat><!-- baabwe, abaabwe, ewaabwe, yaabwe -->
+    <feat name="Number" value="Plur" upos="ADV,AUX,PRON,VERB">221</feat><!-- tulina, iswe, tutyai, waiswe, tukwaba, tuli, mubireke, nituloleera, ntwaba, nywe -->
+    <feat name="Number" value="Sing" upos="ADV,AUX,NOUN,PRON,VERB">677</feat><!-- nje, wange, we, nkwendya, leka, njee, nkwaba, okubona, bange, mbaire -->
+    <feat name="Number[iobj]" value="Plur" upos="VERB">1</feat><!-- wabatubonera -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">2</feat><!-- Munage, mutuleetere -->
+    <feat name="Number[obj]" value="Sing" upos="VERB">28</feat><!-- nkukobere, nkubuulye, Nakuleetere, Nesiga, Nkobera, Nkumanyisye, Nkunyumize, Nkuwe, Twakukoba, nkujwisirye -->
+    <feat name="NumForm" value="Digit" upos="NUM">1</feat><!-- 1400 -->
+    <feat name="NumForm" value="Word" upos="NUM">49</feat><!-- ibiri, mukaaga, ikumi, musanju, abiri, emwe, inai, kanai, kataanu, kimwei -->
+    <feat name="NumType" value="Card" upos="NUM">50</feat><!-- ibiri, mukaaga, ikumi, musanju, abiri, emwe, inai, kanai, kataanu, kimwei -->
+    <feat name="Person" value="1" upos="ADV,AUX,PRON,VERB">440</feat><!-- nje, nkwendya, tulina, iswe, tutyai, njee, nkwaba, mbaire, ndi, nkukobere -->
+    <feat name="Person" value="2" upos="ADV,AUX,NOUN,PRON,VERB">316</feat><!-- we, leka, okubona, okumanya, omaite, wee, kola, Iza, Mulabule, Okukola -->
+    <feat name="Person" value="3" upos="ADV,AUX,NOUN,PRON,VERB">913</feat><!-- nakoba, yee, ekyo, nigyo, ali, namukoba, niye, ye, abba, ayabire -->
+    <feat name="Person[iobj]" value="1" upos="VERB">3</feat><!-- Namumbyaara, bakatuweire, wabatubonera -->
+    <feat name="Person[iobj]" value="3" upos="VERB">1</feat><!-- kulibatoola -->
+    <feat name="Person[obj]" value="1" upos="VERB">51</feat><!-- ankoore, Ekutuleka, gukunduma, nanyegesyanga, nibampeerya, Bandeteire, Batwirukya, Nesiga, Nilutuleetera, Nkobera -->
+    <feat name="Person[obj]" value="2" upos="VERB">34</feat><!-- nkukobere, nkubuulye, balikukubba, Bakubuuliire, Munage, Nakuleetere, Nkumanyisye, Nkunyumize, Nkuwe, Twakukoba -->
+    <feat name="Person[obj]" value="3" upos="VERB">204</feat><!-- namukoba, Mulabule, akaita, balikalya, mubireke, nkaita, Bagagula, amufaaku, muwerye, obikola -->
+    <feat name="Person[psed]" value="3" upos="PRON">112</feat><!-- wange, waiswe, wamwei, bange, owange, abaamu, baabwe, byamu, gange, gwange -->
+    <feat name="Person[psor]" value="1" upos="PRON">56</feat><!-- wange, waiswe, bange, owange, gange, gwange, bwange, ewaiswe, kyange, abange -->
+    <feat name="Person[psor]" value="2" upos="PRON">27</feat><!-- abaamu, byamu, yamu, banywe, waamu, zaamu, baamu, bwamu, gwamu, kyamu -->
+    <feat name="Person[psor]" value="3" upos="PRON">29</feat><!-- wamwei, baabwe, waamwe, wamwe, bamwe, waamwei, Owaamwei, abaabwe, bwamwe, ewaabwe -->
+    <feat name="Polarity" value="Neg" upos="ADV,AUX,INTJ,VERB">145</feat><!-- ndoo, bbe, ti, Tinlyaira, tenduga, tetukuura, talina, tetukwendya, tiwagule, tiyali -->
+    <feat name="Poss" value="Yes" upos="NOUN,PRON">119</feat><!-- wange, waiswe, wamwei, bange, owange, abaamu, baabwe, byamu, gange, gwange -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">195</feat><!-- awo, ani, ekyo, ebyo, eni, eyo, oyo, abo, bini, kini -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">19</feat><!-- abandi, ebindi, ezindi, abamwe, bandi, bindi, bundi, ekindi, erimwei, erindi -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">88</feat><!-- ki, kiki, lwaki, tutyai, batyai, naani, di, ayi, otyai, banaani -->
+    <feat name="PronType" value="Prs" upos="PRON">232</feat><!-- nje, wange, yee, we, iswe, ye, njee, waiswe, wamwei, bange -->
+    <feat name="PronType" value="Rel" upos="PRON">56</feat><!-- kye, gye, ky', bye, gwe, gy', je, we, g', gw' -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">19</feat><!-- buli, byonabyona, kyona, wena, Lwona, boona, gwona, kyoona -->
+    <feat name="Red" value="Yes" upos="ADJ,ADV,DET,NOUN,PRON,VERB">20</feat><!-- byonabyona, genkainenkaine, mpolampola, mmambyammambya, Zigumegume, ammambyamambya, budoolidooli, bukeeyikeeyi, kitabuletabule, kyetwogetwogere -->
+    <feat name="Referent" value="Yes" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">1128</feat><!-- omu, oku, omukali, omwana, abantu, ontale, abaana, omusaiza, omaama, ebintu -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">44</feat><!-- balikalya, Naiza, balikukubba, tiwagule, walugula, wasiga, Kyawoomanga, Nagasobola, Tinawure, Twakukoba -->
+    <feat name="Tense" value="Nar" upos="AUX,VERB">221</feat><!-- nakoba, namukoba, nayaba, ninyaba, naira, nintandika, nituloleera, ntwaba, naika, naikiriza -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">181</feat><!-- yaali, yali, ayabire, nali, Nalekere, Yayabire, byabbanga, ebyayakaire, nasomeire, natandikire -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">855</feat><!-- nkwendya, tulina, nigyo, ali, niye, abba, nkwaba, okubona, alina, kiba -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1222</feat><!-- nakoba, nkwendya, tulina, leka, namukoba, ayabire, okubona, alina, nayaba, nkukobere -->
+    <feat name="VerbForm" value="Inf" upos="VERB">196</feat><!-- okwaba, kola, okubba, okulya, okusoma, okwira, kukola, okubona, okuwona, okwega -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">5</feat><!-- kubandula, kubyalibwa, kukobeire, kukuuma, kwelanga -->
+    <feat name="Voice" value="Appl" upos="NOUN,VERB">78</feat><!-- nkukobere, Tinlyaira, kwebonera, nasomeire, okungira, yamukubbiire, Asumbiire, Bandeteire, Namumbyaara, Niera -->
+    <feat name="Voice" value="Cau" upos="VERB">24</feat><!-- Obinisya, Amwirukirye, Nkumanyisye, Omubinisya, Onenesya, Tumugaitisya, akugezya, akutuzenyesya, akwekolesya, bagwombokesyanga -->
+    <feat name="Voice" value="Pass" upos="NOUN,VERB">9</feat><!-- Nitugaitibwa, Twanenibwe, abasalibwe, balemeerwe, kiwandiikiibwe, kubyalibwa, kyetaagibwa, nawalizibwe, okugezesebwa -->
+    <feat name="Voice" value="Rcp" upos="VERB">2</feat><!-- bakubbangana, banwegerangana -->
+    <feat name="Voice" value="Rfl" upos="NOUN,VERB">12</feat><!-- Niweyalika, Tweirye, Weesweke, Wekuutye, kwefaaku, kwelanga, kyetwogetwogere, newekoomba, ninetegeka, niyeekweka -->
+    <feat name="Voice[add]" value="Appl" upos="VERB">1</feat><!-- nkujwisirye -->
+    <feat name="Voice[add]" value="Rfl" upos="VERB">10</feat><!-- kwebonera, akwekolesya, akwekoora, bakyekoora, beyambisyanga, kweirukira, neelumira, okwekolesya, yesigaliirye -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="47">
+    <dep name="acl">12</dep>
+    <dep name="acl:relcl">95</dep>
+    <dep name="advcl">132</dep>
+    <dep name="advcl:relcl">2</dep>
+    <dep name="advmod">300</dep>
+    <dep name="advmod:cop">5</dep>
+    <dep name="advmod:emph">133</dep>
+    <dep name="advmod:loc">194</dep>
+    <dep name="amod">45</dep>
+    <dep name="appos">12</dep>
+    <dep name="aux">45</dep>
+    <dep name="case">346</dep>
+    <dep name="cc">149</dep>
+    <dep name="ccomp">116</dep>
+    <dep name="compound">1</dep>
+    <dep name="conj">100</dep>
+    <dep name="cop">129</dep>
+    <dep name="csubj">12</dep>
+    <dep name="csubj:outer">2</dep>
+    <dep name="det">93</dep>
+    <dep name="discourse">66</dep>
+    <dep name="dislocated">21</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">6</dep>
+    <dep name="flat:foreign">1</dep>
+    <dep name="flat:name">8</dep>
+    <dep name="flat:num">5</dep>
+    <dep name="iobj">14</dep>
+    <dep name="iobj:appl">6</dep>
+    <dep name="mark">239</dep>
+    <dep name="nmod">89</dep>
+    <dep name="nmod:desc">7</dep>
+    <dep name="nmod:poss">120</dep>
+    <dep name="nsubj">407</dep>
+    <dep name="nsubj:outer">3</dep>
+    <dep name="nummod">14</dep>
+    <dep name="obj">412</dep>
+    <dep name="obj:appl">1</dep>
+    <dep name="obj:caus">9</dep>
+    <dep name="obl">232</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="parataxis">50</dep>
+    <dep name="punct">1255</dep>
+    <dep name="reparandum">5</dep>
+    <dep name="root">1234</dep>
+    <dep name="vocative">34</dep>
+    <dep name="xcomp">137</dep>
+  </deps>
+</treebank>
