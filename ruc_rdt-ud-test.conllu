@@ -13875,7 +13875,7 @@
 10	nk'	nka	ADP	_	_	11	case	11:case	Gloss=like|MSeg=nka
 11	okusyoma	syoma	NOUN	_	NounClass=Bantu15|Referent=Yes|VerbForm=Vnoun	8	nmod	8:nmod	Gloss=AUG-INF-come_for-FV|MSeg=o-ku-syom-a
 12	amabbooki	mabooki	NOUN	_	NounClass=Bantu6|Referent=Yes	11	obj	11:obj	Gloss=AUG-6.water|MSeg=a-mabooki
-13	obundi	ndi	ADV	_	NounClass=Bantu14|PronType=Ind|Referent=Yes	15	obl	15:obl	Gloss=AUG-14-other|MSeg=o-bu-ndi
+13	obundi	ndi	PRON	_	NounClass=Bantu14|PronType=Ind|Referent=Yes	15	obl	15:obl	Gloss=AUG-14-other|MSeg=o-bu-ndi
 14-15	n'okusya	_	_	_	_	_	_	_	_
 14	n'	na	ADP	COM	_	15	cc	15:cc	Gloss=COM|MSeg=na
 15	okusya	sya	NOUN	_	NounClass=Bantu15|Referent=Yes|VerbForm=Vnoun	11	conj	8:nmod|11:conj	Gloss=AUG-INF-grind-FV|MSeg=o-ku-sy-a
