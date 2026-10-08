@@ -3408,7 +3408,7 @@
 6	ge	e	PRON	_	NounClass=Bantu6|PronType=Rel	7	obj	7:obj	Gloss=6.REL|MSeg=ge
 7	baakuumanga	kuuma	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Gloss=2S-PST-keep-FV-HAB|MSeg=ba-a-kuum-a-nga
 8	okugeza	geza	VERB	_	Referent=Yes|VerbForm=Inf	1	advcl	1:advcl	Gloss=AUG-INF-give_example-FV|MSeg=o-ku-gez-a|SpaceAfter=No
-9	,	,	PUNCT	_	_	12	punct	12:punct	SpacesAfter=\n
+9	,	,	PUNCT	_	_	10	punct	10:punct	SpacesAfter=\n
 10	obutaswera	swera	NOUN	_	NounClass=Bantu14|Referent=Yes	3	appos	3:appos	Gloss=AUG-14.not_marrying|MSeg=o-butaswera
 11	wa	a	PART	GEN	NounClass=Bantu16	12	case	12:case	Gloss=16.GEN|MSeg=wa
 12	kika	kika	NOUN	_	NounClass=Bantu7	10	obj	10:obj	Gloss=7.clan|MSeg=kika|SpaceAfter=No
@@ -4076,7 +4076,7 @@
 3	babbanga	bba	VERB	COP	Aspect=Hab|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=2S-COP-FV-HAB|MSeg=ba-bb-a-nga
 4	ku	ku	ADV	LOC	NounClass=Bantu17	5	case	5:case	Gloss=17.LOC|MSeg=ku
 5	ekitina	kitina	NOUN	_	NounClass=Bantu7|Referent=Yes	3	obl	3:obl	Gloss=AUG-7.origin|MSeg=e-kitina|SpacesAfter=\n
-6	kwe	kwe	ADV	_	NounClass=Bantu17|PronType=Rel	7	advmod	7:advmod	Gloss=17.REL|MSeg=kwe
+6	kwe	e	PRON	_	NounClass=Bantu17|PronType=Rel	7	obl	7:obl	Gloss=17.REL|MSeg=kwe
 7	bazwa	zwa	VERB	_	Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	Gloss=2S-come_from-FV|MSeg=ba-zw-a
 8	–	–	PUNCT	_	_	11	punct	11:punct	_
 9	nga	nga	SCONJ	_	_	11	mark	11:mark	Gloss=while|MSeg=nga
@@ -4346,7 +4346,7 @@
 2	bakoleserye	kolesya	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	0:root	Gloss=2S-do-CAUS:PFV|MSeg=ba-kol-eserye
 3	aBanyala	Munyala	PROPN	_	NounClass=Bantu2|Referent=Yes	2	obj:caus	2:obj:caus	Gloss=AUG-2.Banyala|MSeg=a-Banyala
 4	buli	buli	DET	_	PronType=Tot	5	det	5:det	Gloss=every|MSeg=buli
-5	kalumu	kalumu	NOUN	_	NounClass=Bantu12	2	obj	2:obj	Gloss=12.work|MSeg=kalumu|SpacesAfter=\n
+5	kalumu	kalumu	NOUN	_	NounClass=Bantu12	2	iobj	2:iobj	Gloss=12.work|MSeg=kalumu|SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_109
 # text = Olulimi oRunyala luyimbya ebigambo okuzwa omu ndimi ezindi nka oRunyoro, Luganda, oLusoga, n'oLukidi (Luo).
@@ -4427,9 +4427,9 @@
 19	ogumanyiibwe	manya	VERB	REL	Aspect=Perf|Mood=Ind|NounClass=Bantu3|Person=3|Referent=Yes|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	13:acl:relcl	Gloss=S.REL-3S-know-PASS:PFV|MSeg=o-gu-many-iibwe
 20	nka	nka	ADP	_	_	22	case	22:case	Gloss=like|MSeg=nka
 21	"	"	PUNCT	_	_	22	punct	22:punct	SpaceAfter=No
-22	Tower	Tower	X	_	Foreign=Yes	19	obl	19:obl	Gloss=Tower|MSeg=Tower|OrigLang=en|SpaceAfter=No
+22	Tower	Tower	X	_	Foreign=Yes	19	obl	19:obl	Gloss=Tower|MSeg=Tower|OrigLang=en
 23	of	of	X	_	Foreign=Yes	22	flat:foreign	22:flat:foreign	Gloss=of|MSeg=of|OrigLang=en
-24	Babel	Babel	X	_	Foreign=Yes	23	flat:foreign	23:flat:foreign	Gloss=Babel|MSeg=Babel|OrigLang=en
+24	Babel	Babel	X	_	Foreign=Yes	23	flat:foreign	23:flat:foreign	Gloss=Babel|MSeg=Babel|OrigLang=en|SpaceAfter=No
 25	"	"	PUNCT	_	_	22	punct	22:punct	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
@@ -4443,7 +4443,7 @@
 5	na	na	CCONJ	COM	_	6	cc	6:cc	Gloss=and|MSeg=na
 6	kunobesya	noba	NOUN	_	NounClass=Bantu15|VerbForm=Vnoun|Voice=Cau	4	conj	2:nmod|4:conj	Gloss=15S-abandon-CAUS-FV|MSeg=ku-nob-esy-a
 7	Banyala	Munyala	PROPN	_	NounClass=Bantu2	6	obj:caus	6:obj:caus	Gloss=2.Banyala|MSeg=Banyala
-8	iyanga	iyanga	NOUN	_	NounClass=Bantu5	6	obj	6:obj	Gloss=5.iyanga|MSeg=iyanga
+8	iyanga	iyanga	NOUN	_	NounClass=Bantu5	6	iobj	6:iobj	Gloss=5.iyanga|MSeg=iyanga
 9	lyabwe	abwe	PRON	ASSOC	NounClass[psed]=Bantu5|NounClass[psor]=Bantu2|Person[psed]=3|Person[psor]=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Gloss=5-2POSS|MSeg=li-abwe|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
@@ -13653,7 +13653,7 @@
 2	nizikaga	kaga	VERB	_	Mood=Ind|NounClass=Bantu10|Person=3|Tense=Nar|VerbForm=Fin	0	root	0:root	Gloss=NAR-10S-discover-FV|MSeg=ni-zi-kag-a
 3	eisubi	isubi	NOUN	_	NounClass=Bantu5|Referent=Yes	2	obj	2:obj	Gloss=AUG-5.grass|MSeg=e-isubi
 4	erito	to	ADJ	_	NounClass=Bantu5|Referent=Yes	3	amod	3:amod	Gloss=AUG-5-small|MSeg=e-li-to|SpacesAfter=\n
-5	nga	nga	SCONJ	_	_	6	mark	6:mark	Gloss=while|MSeg=nga
+5	nga	nga	SCONJ	_	_	8	mark	8:mark	Gloss=while|MSeg=nga
 6	liri	li	AUX	COP	NounClass=Bantu5|Person=3|Tense=Pres	8	cop	8:cop	Gloss=5S-COP|MSeg=li-li
 7	omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	8	case	8:case	Gloss=AUG-18.LOC|MSeg=o-mu
 8	kapundo	kapundo	NOUN	_	NounClass=Bantu12	3	acl	3:acl	Gloss=12.mineral_lick|MSeg=kapundo
@@ -13746,8 +13746,8 @@
 # english = Towards where we were heading to we heard a goat crying.
 1	Omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	2	case	2:case	Gloss=AUG-18.LOC|MSeg=o-mu
 2	maiso	riiso	NOUN	_	NounClass=Bantu6	6	obl	6:obl	Gloss=6.eye|MSeg=maiso
-3	gye	e	PRON	_	NounClass=Bantu23|PronType=Rel	5	advmod	5:advmod	Gloss=23.REL|MSeg=gye
-4	twali	lia	AUX	_	Number=Plur|Person=1|Tense=Past	5	aux	5:aux	Gloss=1plS-PST-AUX|MSeg=tu-a-li
+3	gye	e	PRON	_	NounClass=Bantu23|PronType=Rel	5	obl	5:obl	Gloss=23.REL|MSeg=gye
+4	twali	li	AUX	_	Number=Plur|Person=1|Tense=Past	5	aux	5:aux	Gloss=1plS-PST-AUX|MSeg=tu-a-li
 5	tukwaba	aba	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Gloss=1plS-PROG-go-FV|MSeg=tu-ku-ab-a
 6-7	wazwireyo	_	_	_	_	_	_	_	_
 6	wazwire	zwa	VERB	_	Aspect=Perf|Mood=Ind|NounClass=Bantu16|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Gloss=16S-come_from-PFV|MSeg=wa-zw-ire
@@ -13785,11 +13785,11 @@
 # english = We took and directed goats to the area where we always graze them from.
 1	Twasetwire	seetula	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Gloss=1plS-PST-cause_to_move_slowly:PFV|MSeg=tu-a-setwire
 2	embuli	mbuli	NOUN	_	NounClass=Bantu10|Referent=Yes	1	obj	1:obj	Gloss=AUG-10.goat|MSeg=e-mbuli
-3	nituzitwala	twala	VERB	_	Mood=Ind|NounClass=Bantu10|Number=Plur|Person=1|Person[obj]=3|Tense=PNares|VerbForm=Fin	1	conj	0:root|1:conj	Gloss=NAR-1plS-10O-take-FV|MSeg=ni-tu-zi-twal-a
+3	nituzitwala	twala	VERB	_	Mood=Ind|NounClass=Bantu10|Number=Plur|Person=1|Person[obj]=3|Tense=Nar|VerbForm=Fin	1	conj	0:root|1:conj	Gloss=NAR-1plS-10O-take-FV|MSeg=ni-tu-zi-twal-a
 4	omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	5	case	5:case	Gloss=AUG-18.LOC|MSeg=o-mu
 5	kisiko	kisiko	NOUN	_	NounClass=Bantu7	3	obl	3:obl	Gloss=7.bush|MSeg=kisiko
 6	buliizo	buliizo	ADV	_	_	8	advmod	8:advmod	Gloss=every_day|MSeg=buliizo
-7	gye	e	PRON	_	NounClass=Bantu23|PronType=Rel	8	advmod	8:advmod	Gloss=23.REL|MSeg=gye
+7	gye	e	PRON	_	NounClass=Bantu23|PronType=Rel	8	obl	8:obl	Gloss=23.REL|MSeg=gye
 8	ziriira	lya	VERB	_	Mood=Ind|NounClass=Bantu10|Person=3|Tense=Pres|VerbForm=Fin|Voice=Appl	5	acl:relcl	5:acl:relcl	Gloss=10S-eat-APPL-FV|MSeg=zi-ly-ir-a|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
@@ -13841,7 +13841,7 @@
 1	Ekisubiiro	kisubiiro	NOUN	_	NounClass=Bantu7|Referent=Yes	4	nsubj	4:nsubj	Gloss=AUG-7.story|MSeg=e-kisubiiro
 2	kini	ni	DET	_	Deixis=Prox|NounClass=Bantu7|PronType=Dem	1	det	1:det	Gloss=7.PROX|MSeg=kini
 3	nikyo	ni	AUX	COP	InfStruct=Foc|NounClass=Bantu7|Person=3|Tense=Pres	4	cop	4:cop	Gloss=COP-7|MSeg=ni-kyo
-4	kimwe	NUM	PRON	_	NounClass=Bantu7|NumForm=Word|NumType=Card	0	root	0:root	Gloss=7-one|MSeg=ki-mwe
+4	kimwe	nwe	NUM	_	NounClass=Bantu7|NumForm=Word|NumType=Card	0	root	0:root	Gloss=7-one|MSeg=ki-mwe
 5	oku	ku	ADP	LOC	NounClass=Bantu17|Referent=Yes	6	case	6:case	Gloss=AUG-17.LOC|MSeg=o-ku
 6	mulumu	mulumu	NOUN	_	NounClass=Bantu3	4	obl	4:obl	Gloss=3.job|MSeg=mulumu
 7	gwe	e	PRON	_	NounClass=Bantu1|PronType=Rel	8	obj	8:obj	Gloss=1.REL|MSeg=gwe
@@ -13862,7 +13862,7 @@
 # text = Naye obundi aboojo abakusongoba iswena twabajunangaku emirimu egimwei nk'okusyoma amabbooki obundi n'okusya obwita.
 # english = While on other occasions we boys in the youth stage would help them on other chores like fetching water and grinding millet.
 1	Naye	naye	CCONJ	_	_	6	cc	6:cc	Gloss=but|MSeg=naye
-2	obundi	ndi	ADV	_	NounClass=Bantu14|PronType=Ind|Referent=Yes	6	obl	6:obl	Gloss=AUG-14-other|MSeg=o-bu-ndi
+2	obundi	ndi	PRON	_	NounClass=Bantu14|PronType=Ind|Referent=Yes	6	obl	6:obl	Gloss=AUG-14-other|MSeg=o-bu-ndi
 3	aboojo	mwojo	NOUN	_	NounClass=Bantu2|Referent=Yes	6	nsubj	6:nsubj	Gloss=AUG-2.boys|MSeg=a-boojo
 4	abakusongoba	songoba	VERB	REL	Aspect=Prog|Mood=Ind|NounClass=Bantu2|Person=3|Referent=Yes|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Gloss=S.REL-2S-PROG-break_voice-FV|MSeg=a-ba-ku-songob-a|SpacesAfter=\n
 5	iswena	ona	PRON	_	Number=Plur|Person=1|PronType=Tot	3	appos	3:appos	Gloss=1pl-all|MSeg=iswe-ona
@@ -13870,7 +13870,7 @@
 6	twabajunanga	juna	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=1|Person[obj]=3|Tense=Past|VerbForm=Fin	0	root	0:root	Gloss=1plS-PST-2O-help-HAB-FV|MSeg=tu-a-ba-jun-ang-a
 7	ku	ku	ADV	LOC	NounClass=Bantu17	6	advmod:loc	6:advmod:loc	Gloss=17.LOC|MSeg=ku
 8	emirimu	mulimo	NOUN	_	NounClass=Bantu4|Referent=Yes	6	obj	6:obj	Gloss=AUG-4.job|MSeg=e-milimo
-9	egimwei	mwe	DET	_	NounClass=Bantu4|Referent=Yes	8	det	8:det	Gloss=AUG-4-one|MSeg=e-gi-mwei|SpacesAfter=\n
+9	egimwei	mwe	DET	_	NounClass=Bantu4|PronType=Ind|Referent=Yes	8	det	8:det	Gloss=AUG-4-one|MSeg=e-gi-mwei|SpacesAfter=\n
 10-11	nk'okusyoma	_	_	_	_	_	_	_	_
 10	nk'	nka	ADP	_	_	11	case	11:case	Gloss=like|MSeg=nka
 11	okusyoma	syoma	NOUN	_	NounClass=Bantu15|Referent=Yes|VerbForm=Vnoun	8	nmod	8:nmod	Gloss=AUG-INF-come_for-FV|MSeg=o-ku-syom-a
@@ -13906,7 +13906,7 @@
 2	embuli	mbuli	NOUN	_	NounClass=Bantu10|Referent=Yes	1	obj	1:obj	Gloss=AUG-10.goat|MSeg=e-mbuli
 3	na	na	CCONJ	COM	_	4	cc	4:cc	Gloss=COM|MSeg=na
 4	entaama	ntaama	NOUN	_	NounClass=Bantu10|Referent=Yes	2	conj	1:obj|2:conj	Gloss=AUG-10.sheep|MSeg=e-ntaama
-5	zingi	ingi	ADJ	_	NounClass=Bantu10|Person=3	2	amod	2:amod|4:amod	Gloss=10S-numerous|MSeg=zi-ingi|SpacesAfter=\n
+5	zingi	ingi	ADJ	_	NounClass=Bantu10	2	amod	2:amod|4:amod	Gloss=10S-numerous|MSeg=zi-ingi|SpacesAfter=\n
 6	kubba	kubba	SCONJ	_	_	9	mark	9:mark	Gloss=because|MSeg=kubba
 7	buli	buli	DET	_	PronType=Tot	8	det	8:det	Gloss=each|MSeg=buli
 8	maka	maka	NOUN	_	NounClass=Bantu6	9	obl	9:obl	Gloss=6.family|MSeg=maka
@@ -13954,7 +13954,7 @@
 2-4	ng'okwiyireku	_	_	_	_	_	_	_	_
 2	ng'	nga	SCONJ	_	_	3	mark	3:mark	Gloss=while|MSeg=nga
 3	okwiyire	iya	VERB	_	Aspect=Perf|Referent=Yes|VerbForm=Inf	6	advcl	6:advcl	Gloss=AUG-INF-take_away-PFV|MSeg=o-ku-iy-ire
-4	ku	ku	PART	_	NounClass=Bantu17	3	advmod:loc	3:advmod:loc	Gloss=17.LOC|MSeg=ku
+4	ku	ku	ADV	_	NounClass=Bantu17	3	advmod:loc	3:advmod:loc	Gloss=17.LOC|MSeg=ku
 5	okuluma	luma	NOUN	_	NounClass=Bantu15|Referent=Yes|VerbForm=Vnoun	3	obj	3:obj	Gloss=AUG-INF-grow-FV|MSeg=o-ku-lum-a
 6	baaseenyanga	seenya	VERB	_	Aspect=Hab|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Gloss=2S-PST-collect-FV-HAB|MSeg=ba-a-seeny-a-nga
 7	enkwi	lukwi	NOUN	_	NounClass=Bantu10|Referent=Yes	6	obj	6:obj	Gloss=AUG-10.firewood|MSeg=e-nkwi|SpaceAfter=No
@@ -13980,7 +13980,7 @@
 3	nibasigala	sigala	VERB	_	Mood=Ind|NounClass=Bantu2|Person=3|Tense=Nar|VerbForm=Fin	0	root	0:root	Gloss=NAR-2S-remain-FV|MSeg=ni-ba-sigal-a
 4	nga	nga	SCONJ	_	_	5	mark	5:mark	Gloss=while|MSeg=nga
 5	bakukumbania	kumbaania	VERB	_	Aspect=Prog|Mood=Ind|NounClass=Bantu2|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	Gloss=2S-PROG-bring_together-FV|MSeg=ba-ku-kumbaani-a
-6	ezimwei	mwe	PRON	_	NounClass=Bantu10|Referent=Yes	5	obj	5:obj	Gloss=AUG-10-one|MSeg=e-zi-mwei|SpaceAfter=No
+6	ezimwei	mwe	PRON	_	NounClass=Bantu10|PronType=Ind|Referent=Yes	5	obj	5:obj	Gloss=AUG-10-one|MSeg=e-zi-mwei|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = fiction_Ekitwoni_30
