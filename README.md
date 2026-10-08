@@ -1,19 +1,22 @@
 # Summary
 
-UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (Ruuli) language. The annotation was converted from interlinear glossed text and manually annotated for syntactic relations. The treebank includes texts from various sources: conversations, oral folktales, biographic monologue, movie subtitles, grammar examples, and factual prose. The treebank contains approximately 6,000 tokens.
+UD_Ruuli-RDT is a Universal Dependencies (UD) treebank for the Ruruuli-Lunyala (Ruuli) language. The annotation was converted from interlinear glossed text and manually annotated for syntactic relations. The treebank includes texts from various sources: conversations, oral folktales, biographic monologue, grammar examples, movie subtitles, and fiction and non-fiction prose. The treebank contains approximately 8,000 tokens.
 
 # Introduction
 
 The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into it by native speakers, and subsequently glossed and annotated. The included texts are:
 
-* spokenBio_Nakasongola1 (795 words): Biographic monologue on childhood years, schooling, work, and other life experiences 
 * spokenConv_Nakasongola1b (1223 words): Conversation between two speakers, a male and a female, about taking care of their elderly parents  
 * spokenConv_Nakasongola2 (1544 words): Conversation between two females about socio-economic issues  
 * spokenTale_Gweero (595 words): A traditional oral folktale about the cow who got in trouble with the lion and the hare who helped the cow  
 * spokenTale_Sokoso (373 words): A traditional oral folktale about a woman who mistreated her mother-in-law  
-* film_Inception (469 words): An excerpt from the translated subtitles for the film *Inception* (2010)  
+* spokenBio_Nakasongola1 (795 words): Biographic monologue on childhood years, schooling, work, and other life experiences 
 * grammar_Syntax (936 words): Language examples from *A dictionary and grammatical sketch of Ruruuli-Lunyala* (Namyalo et al. 2021)  
-* nonfiction_Aniinire (366 words): An excerpt from factual prose on the history and traditions of the language speakers  
+* film_Inception (469 words): An excerpt from the translated subtitles for the film *Inception* (2010)  
+* fiction_Ekitwoni (313 words): TODO
+* fiction_OMpologoma (188 words): TODO
+* nonfiction_Aniinire (1735 words): An excerpt from factual prose on the history and traditions of the language speakers
+
 
 All sentences were converted from interlinear glossed text into CoNLL-U format using a custom conversion script. The syntactic relations were subsequently manually annotated following the UD framework.
 
@@ -22,9 +25,11 @@ Sentences from written texts and conversations were shuffled to anonymize the da
 # Genre Classification
 
 * Spoken (incl. conversations, oral folktales, and biographic monologue): sentence IDs start with `spoken`
-* Fiction movie subtitles: sentence IDs start with `film`
 * Examples from the grammatical sketch: sentence IDs start with `grammar`
-* Factual Prose: sentence IDs start with `nonfiction`
+* Fiction movie subtitles: sentence IDs start with `film`
+* Fiction prose: sentence IDs start with `fiction`
+* Factual prose: sentence IDs start with `nonfiction`
+
 
 # Acknowledgments
 
