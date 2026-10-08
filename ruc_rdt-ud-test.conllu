@@ -4403,7 +4403,7 @@
 22	.	.	PUNCT	_	_	19	punct	19:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_111
-# text = Olulimi olunyala lukwisana nga nulwo lumwei oku ndumi ezabonekere oKanca ni yayendere omulongooti ogwaali gukwombokwa okwaba omwiguru ogumanyiibwe nka "Tower of Babel".
+# text = Olulimi olunyala lukwisana nga nulwo lumwei oku ndumi ezabonekere oKanca ni yayendere omulongooti ogwaali gukwombokwa okwaba omwiguru ogumanyiibwe nka "Tower of Babel ".
 # english = The lunyala language seems to be one of the languages which we have seen when God desired the mosk which was being built towards the heaven, which is known as the Tower of Babel.
 1	Olulimi	lulimi	NOUN	_	NounClass=Bantu11|Referent=Yes	3	nsubj	3:nsubj	Gloss=AUG-11.language|MSeg=o-lulimi
 2	olunyala	lunyala	PROPN	_	NounClass=Bantu11|Referent=Yes	1	nmod	1:nmod	Gloss=AUG-11.Lunyala|MSeg=o-lunyala
@@ -4429,7 +4429,7 @@
 21	"	"	PUNCT	_	_	22	punct	22:punct	SpaceAfter=No
 22	Tower	Tower	X	_	Foreign=Yes	19	obl	19:obl	Gloss=Tower|MSeg=Tower|OrigLang=en
 23	of	of	X	_	Foreign=Yes	22	flat:foreign	22:flat:foreign	Gloss=of|MSeg=of|OrigLang=en
-24	Babel	Babel	X	_	Foreign=Yes	23	flat:foreign	23:flat:foreign	Gloss=Babel|MSeg=Babel|OrigLang=en|SpaceAfter=No
+24	Babel	Babel	X	_	Foreign=Yes	23	flat:foreign	23:flat:foreign	Gloss=Babel|MSeg=Babel|OrigLang=en
 25	"	"	PUNCT	_	_	22	punct	22:punct	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
