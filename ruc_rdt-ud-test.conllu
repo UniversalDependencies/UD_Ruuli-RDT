@@ -4403,7 +4403,7 @@
 22	.	.	PUNCT	_	_	19	punct	19:punct	SpacesAfter=\n
 
 # sent_id = nonfiction_Aniinire_111
-# text = Olulimi olunyala lukwisana nga nulwo lumwei oku ndumi ezabonekere oKanca ni yayendere omulongooti ogwaali gukwombokwa okwaba omwiguru ogumanyiibwe nka "Tower of Babel ".
+# text = Olulimi olunyala lukwisana nga nulwo lumwei oku ndumi ezabonekere oKanca ni yayendere omulongooti ogwaali gukwombokwa okwaba omwiguru ogumanyiibwe nka "Tower of Babel".
 # english = The lunyala language seems to be one of the languages which we have seen when God desired the mosk which was being built towards the heaven, which is known as the Tower of Babel.
 1	Olulimi	lulimi	NOUN	_	NounClass=Bantu11|Referent=Yes	3	nsubj	3:nsubj	Gloss=AUG-11.language|MSeg=o-lulimi
 2	olunyala	lunyala	PROPN	_	NounClass=Bantu11|Referent=Yes	1	nmod	1:nmod	Gloss=AUG-11.Lunyala|MSeg=o-lunyala
@@ -4423,13 +4423,13 @@
 16	okwaba	aba	VERB	_	Referent=Yes|VerbForm=Inf	15	advcl	15:advcl	Gloss=AUG-INF-go-FV|MSeg=o-ku-ab-a
 17-18	omwiguru	_	_	_	_	_	_	_	_
 17	omu	mu	ADP	LOC	NounClass=Bantu18|Referent=Yes	18	case	18:case	Gloss=AUG-18.LOC|MSeg=o-mu
-18	iguru	iguru	NOUN	_	NounClass=Bantu5	16	obl	16:obl	Gloss=5.sky|MSeg=iguru|SpaceAfter=No
+18	iguru	iguru	NOUN	_	NounClass=Bantu5	16	obl	16:obl	Gloss=5.sky|MSeg=iguru
 19	ogumanyiibwe	manya	VERB	REL	Aspect=Perf|Mood=Ind|NounClass=Bantu3|Person=3|Referent=Yes|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	13:acl:relcl	Gloss=S.REL-3S-know-PASS:PFV|MSeg=o-gu-many-iibwe
 20	nka	nka	ADP	_	_	22	case	22:case	Gloss=like|MSeg=nka
 21	"	"	PUNCT	_	_	22	punct	22:punct	SpaceAfter=No
 22	Tower	Tower	X	_	Foreign=Yes	19	obl	19:obl	Gloss=Tower|MSeg=Tower|OrigLang=en
 23	of	of	X	_	Foreign=Yes	22	flat:foreign	22:flat:foreign	Gloss=of|MSeg=of|OrigLang=en
-24	Babel	Babel	X	_	Foreign=Yes	23	flat:foreign	23:flat:foreign	Gloss=Babel|MSeg=Babel|OrigLang=en
+24	Babel	Babel	X	_	Foreign=Yes	23	flat:foreign	23:flat:foreign	Gloss=Babel|MSeg=Babel|OrigLang=en|SpaceAfter=No
 25	"	"	PUNCT	_	_	22	punct	22:punct	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
