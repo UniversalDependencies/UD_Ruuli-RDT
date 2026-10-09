@@ -13,8 +13,8 @@ The UD_Ruuli-RDT treebank consists of texts recorded in Ruuli or translated into
 * spokenBio_Nakasongola1 (795 words): Biographic monologue on childhood years, schooling, work, and other life experiences 
 * grammar_Syntax (936 words): Language examples from *A dictionary and grammatical sketch of Ruruuli-Lunyala* (Namyalo et al. 2021)  
 * film_Inception (469 words): An excerpt from the translated subtitles for the film *Inception* (2010)  
-* fiction_Ekitwoni (313 words): TODO
-* fiction_OMpologoma (188 words): TODO
+* fiction_Ekitwoni (313 words): Several written fictional tales on various dangerous experiences, narrated from the first person
+* fiction_OMpologoma (188 words): A written version of a traditional folktale about the hare that wanted to become wise 
 * nonfiction_Aniinire (1735 words): An excerpt from factual prose on the history and traditions of the language speakers
 
 
